@@ -1,0 +1,567 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<workspace>
+  <symbolbrowser>
+    <symbolfiles>
+      <symbolfile Filepath="..\..\T211110_Firmware\_Keil_uVision\Objects\T211110.elf" ExternallyAdded="false" Core_Identifier="Core0" Device_Identifier="Device0" FileType="ELF_File" />
+    </symbolfiles>
+  </symbolbrowser>
+  <screens SelectedScreenId="DataScreen2">
+    <screen RegisteredName="DataScreen2" ScreenHeader="DataScreen3" ScreenType="DataScreen" />
+  </screens>
+  <nodes>
+    <node ScreenId="DataScreen2" NodeId="CustomDiagramNode1" OffsetX="17.905923657360773" OffsetY="20.711338892360345" AllowMove="true" AllowResize="false" AllowRotate="false" AllowSelect="true" Width="470.00000000000006" Height="280" ZIndex="0" IsLocked="false" RotateAngle="0" Pivot="0.5,0.5" UpdateWhenVisible="true" IsWritableControl="false" WritableValue="0" IsDrawingShape="false" ShapeTypeStr="" RibbonTool="None">
+      <innercontent>
+        <content ControlType="XYBar" Type="Graph5">
+          <definitions Width="470.00000000000006" Height="280" TypeOfXAxisValues="SampleNumber" TypeOfUpdateStyle="Bar" MaxNumSamples="64" IsLegendVisible="true" ChartType="BarChart" EraseTrace="false" XAxisStep="20" PrimaryYAxisFrom="0" PrimaryYAxisTo="4095" PrimaryYAxisStep="10" ScalingFactor="1" ScalingOffset="0" ScalingFormat="" DecimalPlaces="2" LeadingZeroes="0" LegendPosition="InsideTopRight" ShowLegend="true" ShowTooltip="true" ShowAnnotation="true" Show_YAxisLabels="true" YAutoRange="false" YAxisFrom="0" YAxisTo="4095" Show_XAxisLabels="true" DataPointWidth="0.8" ArrayLength="64" WholeArray="true" UserStartIndex="0" UserEndIndex="63" IsArray="true" AllBarsSameColor="#FF0000FF" UseSameColor="true" ColorsRangeBegin="0" ColorsRangeEnd="0" BarColorWithin="#FF008000" BarColorAbove="#FFFF0000" BarColorBelow="#FFFFFF00" FontColor="#FF000000" LineColor="#FF000000" FontColorAutomatically="true" />
+        </content>
+      </innercontent>
+      <symbols>
+        <symbol path="samples" IsAnArrayElement="false" ElementIndex="0" IsCustomSymbol="false" Mask_Enabled="false" Mask_Start_Bit="0" Mask_End_Bit="0" />
+      </symbols>
+    </node>
+    <node ScreenId="DataScreen2" NodeId="CustomDiagramNode2" OffsetX="517.90592365736086" OffsetY="20.711338892360345" AllowMove="true" AllowResize="false" AllowRotate="false" AllowSelect="true" Width="480" Height="280" ZIndex="1" IsLocked="false" RotateAngle="0" Pivot="0.5,0.5" UpdateWhenVisible="true" IsWritableControl="false" WritableValue="0" IsDrawingShape="false" ShapeTypeStr="" RibbonTool="None">
+      <innercontent>
+        <content ControlType="XYBar" Type="Graph5">
+          <definitions Width="480" Height="280" TypeOfXAxisValues="SampleNumber" TypeOfUpdateStyle="Bar" MaxNumSamples="32" IsLegendVisible="true" ChartType="BarChart" EraseTrace="false" XAxisStep="20" PrimaryYAxisFrom="0" PrimaryYAxisTo="4095" PrimaryYAxisStep="10" ScalingFactor="1" ScalingOffset="0" ScalingFormat="" DecimalPlaces="2" LeadingZeroes="0" LegendPosition="InsideTopRight" ShowLegend="true" ShowTooltip="true" ShowAnnotation="true" Show_YAxisLabels="true" YAutoRange="false" YAxisFrom="0" YAxisTo="4095" Show_XAxisLabels="true" DataPointWidth="0.5" ArrayLength="32" WholeArray="true" UserStartIndex="0" UserEndIndex="31" IsArray="true" AllBarsSameColor="#FFFF1493" UseSameColor="true" ColorsRangeBegin="0" ColorsRangeEnd="0" BarColorWithin="#FF008000" BarColorAbove="#FFFF0000" BarColorBelow="#FFFFFF00" FontColor="#FF000000" LineColor="#FF000000" FontColorAutomatically="true" />
+        </content>
+      </innercontent>
+      <symbols>
+        <symbol path="even" IsAnArrayElement="false" ElementIndex="0" IsCustomSymbol="false" Mask_Enabled="false" Mask_Start_Bit="0" Mask_End_Bit="0" />
+      </symbols>
+    </node>
+    <node ScreenId="DataScreen2" NodeId="CustomDiagramNode3" OffsetX="1017.9059236573607" OffsetY="20.711338892360345" AllowMove="true" AllowResize="false" AllowRotate="false" AllowSelect="true" Width="480" Height="280" ZIndex="2" IsLocked="false" RotateAngle="0" Pivot="0.5,0.5" UpdateWhenVisible="true" IsWritableControl="false" WritableValue="0" IsDrawingShape="false" ShapeTypeStr="" RibbonTool="None">
+      <innercontent>
+        <content ControlType="XYBar" Type="Graph5">
+          <definitions Width="480" Height="280" TypeOfXAxisValues="SampleNumber" TypeOfUpdateStyle="Bar" MaxNumSamples="32" IsLegendVisible="true" ChartType="BarChart" EraseTrace="false" XAxisStep="20" PrimaryYAxisFrom="0" PrimaryYAxisTo="4095" PrimaryYAxisStep="10" ScalingFactor="1" ScalingOffset="0" ScalingFormat="" DecimalPlaces="2" LeadingZeroes="0" LegendPosition="InsideTopRight" ShowLegend="true" ShowTooltip="true" ShowAnnotation="true" Show_YAxisLabels="true" YAutoRange="false" YAxisFrom="0" YAxisTo="4095" Show_XAxisLabels="true" DataPointWidth="0.5" ArrayLength="32" WholeArray="true" UserStartIndex="0" UserEndIndex="31" IsArray="true" AllBarsSameColor="#FFFFA500" UseSameColor="true" ColorsRangeBegin="0" ColorsRangeEnd="0" BarColorWithin="#FF008000" BarColorAbove="#FFFF0000" BarColorBelow="#FFFFFF00" FontColor="#FF000000" LineColor="#FF000000" FontColorAutomatically="true" />
+        </content>
+      </innercontent>
+      <symbols>
+        <symbol path="odd" IsAnArrayElement="false" ElementIndex="0" IsCustomSymbol="false" Mask_Enabled="false" Mask_Start_Bit="0" Mask_End_Bit="0" />
+      </symbols>
+    </node>
+    <node ScreenId="DataScreen2" NodeId="CustomDiagramNode4" OffsetX="17.905923657360859" OffsetY="320.71133889236035" AllowMove="true" AllowResize="false" AllowRotate="false" AllowSelect="true" Width="480" Height="280" ZIndex="1" IsLocked="false" RotateAngle="0" Pivot="0.5,0.5" UpdateWhenVisible="true" IsWritableControl="false" WritableValue="0" IsDrawingShape="false" ShapeTypeStr="" RibbonTool="None">
+      <innercontent>
+        <content ControlType="XYBar" Type="Graph5">
+          <definitions Width="480" Height="280" TypeOfXAxisValues="SampleNumber" TypeOfUpdateStyle="Bar" MaxNumSamples="32" IsLegendVisible="true" ChartType="BarChart" EraseTrace="false" XAxisStep="20" PrimaryYAxisFrom="-4095" PrimaryYAxisTo="4095" PrimaryYAxisStep="10" ScalingFactor="1" ScalingOffset="0" ScalingFormat="" DecimalPlaces="2" LeadingZeroes="0" LegendPosition="InsideTopRight" ShowLegend="true" ShowTooltip="true" ShowAnnotation="true" Show_YAxisLabels="true" YAutoRange="false" YAxisFrom="-4095" YAxisTo="4095" Show_XAxisLabels="true" DataPointWidth="0.5" ArrayLength="32" WholeArray="true" UserStartIndex="0" UserEndIndex="31" IsArray="true" AllBarsSameColor="#FFDA70D6" UseSameColor="true" ColorsRangeBegin="0" ColorsRangeEnd="0" BarColorWithin="#FF008000" BarColorAbove="#FFFF0000" BarColorBelow="#FFFFFF00" FontColor="#FF000000" LineColor="#FF000000" FontColorAutomatically="true" />
+        </content>
+      </innercontent>
+      <symbols>
+        <symbol path="demol" IsAnArrayElement="false" ElementIndex="0" IsCustomSymbol="false" Mask_Enabled="false" Mask_Start_Bit="0" Mask_End_Bit="0" />
+      </symbols>
+    </node>
+    <node ScreenId="DataScreen2" NodeId="CustomDiagramNode5" OffsetX="17.905923657360859" OffsetY="630.71133889236035" AllowMove="true" AllowResize="false" AllowRotate="false" AllowSelect="true" Width="470" Height="260" ZIndex="2" IsLocked="false" RotateAngle="0" Pivot="0.5,0.5" UpdateWhenVisible="false" IsWritableControl="false" WritableValue="0" IsDrawingShape="false" ShapeTypeStr="" RibbonTool="None">
+      <innercontent>
+        <content ControlType="XYGraph" Type="Graph3">
+          <definitions Width="470" Height="260" TypeOfXAxisValues="SampleNumber" TypeOfUpdateStyle="Burst" MaxNumSamples="32" IsLegendVisible="true" ChartType="LineChart" EraseTrace="true" XAxisFrom="0" XAxisTo="200" XAxisStep="20" PrimaryYAxisFrom="-4000" PrimaryYAxisTo="4000" PrimaryYAxisStep="10" YAutoRange="false" ScalingFactor="1" ScalingOffset="0" ScalingFormat="" DecimalPlaces="0" LeadingZeroes="0" LegendPosition="InsideTopRight" ShowLegend="true" Show_XAxisLabels="false" />
+          <symbolseries>
+            <serie YAxisFrom="0" YAxisStep="20" YAxisTo="200" Path="demol">
+              <seriesmodel EraseTrace="true" MaxNumSamples="32" TypeOfUpdateStyle="Burst" TypeOfXAxisValues="SampleNumber" XAxisOffset="0" />
+              <seriesview ShowArea="false" ShowLine="true" ShowPoints="false" AreaFill="#FFDA70D6" PointStroke="#FFDA70D6" PointStrokeThickness="2" PointFill="#FFDA70D6" PointSize="5" LineStroke="#FFDA70D6" LineStrokeThickness="2" HighlightingEnabled="false" PointShape="Ellipse" />
+            </serie>
+          </symbolseries>
+        </content>
+      </innercontent>
+      <symbols>
+        <symbol path="demol" IsAnArrayElement="false" ElementIndex="0" IsCustomSymbol="false" Mask_Enabled="false" Mask_Start_Bit="0" Mask_End_Bit="0" />
+      </symbols>
+    </node>
+    <node ScreenId="DataScreen2" NodeId="CustomDiagramNode6" OffsetX="517.90592365736086" OffsetY="320.71133889236035" AllowMove="true" AllowResize="false" AllowRotate="false" AllowSelect="true" Width="480" Height="280" ZIndex="1" IsLocked="false" RotateAngle="0" Pivot="0.5,0.5" UpdateWhenVisible="true" IsWritableControl="false" WritableValue="0" IsDrawingShape="false" ShapeTypeStr="" RibbonTool="None">
+      <innercontent>
+        <content ControlType="XYBar" Type="Graph5">
+          <definitions Width="480" Height="280" TypeOfXAxisValues="SampleNumber" TypeOfUpdateStyle="Bar" MaxNumSamples="32" IsLegendVisible="true" ChartType="BarChart" EraseTrace="false" XAxisStep="20" PrimaryYAxisFrom="-4095" PrimaryYAxisTo="4095" PrimaryYAxisStep="10" ScalingFactor="1" ScalingOffset="0" ScalingFormat="" DecimalPlaces="2" LeadingZeroes="0" LegendPosition="InsideTopRight" ShowLegend="true" ShowTooltip="true" ShowAnnotation="true" Show_YAxisLabels="true" YAutoRange="false" YAxisFrom="-4095" YAxisTo="4095" Show_XAxisLabels="true" DataPointWidth="0.5" ArrayLength="32" WholeArray="true" UserStartIndex="0" UserEndIndex="31" IsArray="true" AllBarsSameColor="#FF2E8B57" UseSameColor="true" ColorsRangeBegin="0" ColorsRangeEnd="0" BarColorWithin="#FF008000" BarColorAbove="#FFFF0000" BarColorBelow="#FFFFFF00" FontColor="#FF000000" LineColor="#FF000000" FontColorAutomatically="true" />
+        </content>
+      </innercontent>
+      <symbols>
+        <symbol path="demolLp" IsAnArrayElement="false" ElementIndex="0" IsCustomSymbol="false" Mask_Enabled="false" Mask_Start_Bit="0" Mask_End_Bit="0" />
+      </symbols>
+    </node>
+    <node ScreenId="DataScreen2" NodeId="CustomDiagramNode7" OffsetX="522.90592365736086" OffsetY="630.71133889236035" AllowMove="true" AllowResize="false" AllowRotate="false" AllowSelect="true" Width="470" Height="260" ZIndex="2" IsLocked="false" RotateAngle="0" Pivot="0.5,0.5" UpdateWhenVisible="false" IsWritableControl="false" WritableValue="0" IsDrawingShape="false" ShapeTypeStr="" RibbonTool="None">
+      <innercontent>
+        <content ControlType="XYGraph" Type="Graph3">
+          <definitions Width="470" Height="260" TypeOfXAxisValues="SampleNumber" TypeOfUpdateStyle="Burst" MaxNumSamples="32" IsLegendVisible="true" ChartType="LineChart" EraseTrace="true" XAxisFrom="0" XAxisTo="200" XAxisStep="20" PrimaryYAxisFrom="-4000" PrimaryYAxisTo="4000" PrimaryYAxisStep="10" YAutoRange="false" ScalingFactor="1" ScalingOffset="0" ScalingFormat="" DecimalPlaces="0" LeadingZeroes="0" LegendPosition="InsideTopRight" ShowLegend="true" Show_XAxisLabels="false" />
+          <symbolseries>
+            <serie YAxisFrom="0" YAxisStep="20" YAxisTo="200" Path="demolLp">
+              <seriesmodel EraseTrace="true" MaxNumSamples="32" TypeOfUpdateStyle="Burst" TypeOfXAxisValues="SampleNumber" XAxisOffset="0" />
+              <seriesview ShowArea="false" ShowLine="true" ShowPoints="false" AreaFill="#FF2E8B57" PointStroke="#FF2E8B57" PointStrokeThickness="1" PointFill="#FF2E8B57" PointSize="5" LineStroke="#FF2E8B57" LineStrokeThickness="1" HighlightingEnabled="false" PointShape="Ellipse" />
+            </serie>
+          </symbolseries>
+        </content>
+      </innercontent>
+      <symbols>
+        <symbol path="demolLp" IsAnArrayElement="false" ElementIndex="0" IsCustomSymbol="false" Mask_Enabled="false" Mask_Start_Bit="0" Mask_End_Bit="0" />
+      </symbols>
+    </node>
+    <node ScreenId="DataScreen2" NodeId="CustomDiagramNode8" OffsetX="1017.9059236573607" OffsetY="321.18860401605741" AllowMove="true" AllowResize="false" AllowRotate="false" AllowSelect="true" Width="199.562689180937" Height="49.396336740782623" ZIndex="2" IsLocked="false" RotateAngle="0" Pivot="0.5,0.5" UpdateWhenVisible="true" IsWritableControl="false" WritableValue="0" IsDrawingShape="false" ShapeTypeStr="" RibbonTool="None">
+      <innercontent>
+        <content ControlType="TextTool" Type="TextTool">
+          <definitions BackgroundValue="#00FFFFFF" FontFamilyValue="Consolas" FontSizeValue="36" FontStyleValue="Normal" FontWeightValue="Bold" ForegroundValue="#FF000000" TextAlignmentValue="Left" IsThousandSeparatorEnabled="false" ScalingFactor="1" ScalingOffset="0" ScalingFormat="" LeadingZeroes="0" DecimalPlaces="0" Width="199.562689180937" Height="49.396336740782623" IsVerticalText="false" ContainsAssignedSymbols="false" Text="Real" />
+        </content>
+      </innercontent>
+      <symbols />
+    </node>
+    <node ScreenId="DataScreen2" NodeId="CustomDiagramNode9" OffsetX="1218.1868138447155" OffsetY="320.88608990957431" AllowMove="true" AllowResize="false" AllowRotate="false" AllowSelect="true" Width="281.81318615528437" Height="50.001364953748769" ZIndex="3" IsLocked="false" RotateAngle="0" Pivot="0.5,0.5" UpdateWhenVisible="true" IsWritableControl="false" WritableValue="0" IsDrawingShape="false" ShapeTypeStr="" RibbonTool="None">
+      <innercontent>
+        <content ControlType="Numeric" Type="Numeric2">
+          <definitions NumericFontFamilyValue="Arial Black" NumericFontSizeValue="36" NumericForegroundValue="#FF000000" NumericTextAlignmentValue="Left" IsThousandSeparatorEnabled="false" ScalingFactor="1" ScalingOffset="0" ScalingFormat="" LeadingZeroes="0" DecimalPlaces="1" Notation="Regular" Representation="Decimal" Width="281.81318615528437" Height="50.001364953748769" />
+        </content>
+      </innercontent>
+      <symbols>
+        <symbol path="real" IsAnArrayElement="false" ElementIndex="0" IsCustomSymbol="false" Mask_Enabled="false" Mask_Start_Bit="0" Mask_End_Bit="0" />
+      </symbols>
+    </node>
+    <node ScreenId="DataScreen2" NodeId="CustomDiagramNode10" OffsetX="1017.7669858763702" OffsetY="370.58494075684007" AllowMove="true" AllowResize="false" AllowRotate="false" AllowSelect="true" Width="199.84056474291819" Height="49.062902211683806" ZIndex="2" IsLocked="false" RotateAngle="0" Pivot="0.5,0.5" UpdateWhenVisible="true" IsWritableControl="false" WritableValue="0" IsDrawingShape="false" ShapeTypeStr="" RibbonTool="None">
+      <innercontent>
+        <content ControlType="TextTool" Type="TextTool">
+          <definitions BackgroundValue="#00FFFFFF" FontFamilyValue="Consolas" FontSizeValue="36" FontStyleValue="Normal" FontWeightValue="Bold" ForegroundValue="#FF000000" TextAlignmentValue="Left" IsThousandSeparatorEnabled="false" ScalingFactor="1" ScalingOffset="0" ScalingFormat="" LeadingZeroes="0" DecimalPlaces="0" Width="199.84056474291819" Height="49.062902211683806" IsVerticalText="false" ContainsAssignedSymbols="false" Text="Imag" />
+        </content>
+      </innercontent>
+      <symbols />
+    </node>
+    <node ScreenId="DataScreen2" NodeId="CustomDiagramNode11" OffsetX="1019.3230078300209" OffsetY="419.48361748270963" AllowMove="true" AllowResize="false" AllowRotate="false" AllowSelect="true" Width="199.41095791266784" Height="52.462135011489828" ZIndex="2" IsLocked="false" RotateAngle="0" Pivot="0.5,0.5" UpdateWhenVisible="true" IsWritableControl="false" WritableValue="0" IsDrawingShape="false" ShapeTypeStr="" RibbonTool="None">
+      <innercontent>
+        <content ControlType="TextTool" Type="TextTool">
+          <definitions BackgroundValue="#00FFFFFF" FontFamilyValue="Consolas" FontSizeValue="36" FontStyleValue="Normal" FontWeightValue="Bold" ForegroundValue="#FF000000" TextAlignmentValue="Left" IsThousandSeparatorEnabled="false" ScalingFactor="1" ScalingOffset="0" ScalingFormat="" LeadingZeroes="0" DecimalPlaces="0" Width="199.41095791266784" Height="52.462135011489828" IsVerticalText="false" ContainsAssignedSymbols="false" Text="Quadrant" />
+        </content>
+      </innercontent>
+      <symbols />
+    </node>
+    <node ScreenId="DataScreen2" NodeId="CustomDiagramNode12" OffsetX="1020.0565979104749" OffsetY="471.44805469981208" AllowMove="true" AllowResize="false" AllowRotate="false" AllowSelect="true" Width="197.94744747855475" Height="49.427116841517012" ZIndex="2" IsLocked="false" RotateAngle="0" Pivot="0.5,0.5" UpdateWhenVisible="true" IsWritableControl="false" WritableValue="0" IsDrawingShape="false" ShapeTypeStr="" RibbonTool="None">
+      <innercontent>
+        <content ControlType="TextTool" Type="TextTool">
+          <definitions BackgroundValue="#00FFFFFF" FontFamilyValue="Consolas" FontSizeValue="36" FontStyleValue="Normal" FontWeightValue="Bold" ForegroundValue="#FF000000" TextAlignmentValue="Left" IsThousandSeparatorEnabled="false" ScalingFactor="1" ScalingOffset="0" ScalingFormat="" LeadingZeroes="0" DecimalPlaces="0" Width="197.94744747855475" Height="49.427116841517012" IsVerticalText="false" ContainsAssignedSymbols="false" Text="Angle r" />
+        </content>
+      </innercontent>
+      <symbols />
+    </node>
+    <node ScreenId="DataScreen2" NodeId="CustomDiagramNode13" OffsetX="1019.831795421058" OffsetY="519.5104791233714" AllowMove="true" AllowResize="false" AllowRotate="false" AllowSelect="true" Width="198.28626071764825" Height="51.62435324720397" ZIndex="2" IsLocked="false" RotateAngle="0" Pivot="0.5,0.5" UpdateWhenVisible="true" IsWritableControl="false" WritableValue="0" IsDrawingShape="false" ShapeTypeStr="" RibbonTool="None">
+      <innercontent>
+        <content ControlType="TextTool" Type="TextTool">
+          <definitions BackgroundValue="#00FFFFFF" FontFamilyValue="Consolas" FontSizeValue="36" FontStyleValue="Normal" FontWeightValue="Bold" ForegroundValue="#FF000000" TextAlignmentValue="Left" IsThousandSeparatorEnabled="false" ScalingFactor="1" ScalingOffset="0" ScalingFormat="" LeadingZeroes="0" DecimalPlaces="0" Width="198.28626071764825" Height="51.62435324720397" IsVerticalText="false" ContainsAssignedSymbols="false" Text="Angle d" />
+        </content>
+      </innercontent>
+      <symbols />
+    </node>
+    <node ScreenId="DataScreen2" NodeId="CustomDiagramNode14" OffsetX="1018.9058410309606" OffsetY="570.48712334737775" AllowMove="true" AllowResize="false" AllowRotate="false" AllowSelect="true" Width="199.84634650044026" Height="50.853481899058252" ZIndex="2" IsLocked="false" RotateAngle="0" Pivot="0.5,0.5" UpdateWhenVisible="true" IsWritableControl="false" WritableValue="0" IsDrawingShape="false" ShapeTypeStr="" RibbonTool="None">
+      <innercontent>
+        <content ControlType="TextTool" Type="TextTool">
+          <definitions BackgroundValue="#00FFFFFF" FontFamilyValue="Consolas" FontSizeValue="36" FontStyleValue="Normal" FontWeightValue="Bold" ForegroundValue="#FF000000" TextAlignmentValue="Left" IsThousandSeparatorEnabled="false" ScalingFactor="1" ScalingOffset="0" ScalingFormat="" LeadingZeroes="0" DecimalPlaces="0" Width="199.84634650044026" Height="50.853481899058252" IsVerticalText="false" ContainsAssignedSymbols="false" Text="Magnitude" />
+        </content>
+      </innercontent>
+      <symbols />
+    </node>
+    <node ScreenId="DataScreen2" NodeId="CustomDiagramNode15" OffsetX="1218.1868138447155" OffsetY="370.88745486332311" AllowMove="true" AllowResize="false" AllowRotate="false" AllowSelect="true" Width="281.81318615528437" Height="50.001364953748769" ZIndex="3" IsLocked="false" RotateAngle="0" Pivot="0.5,0.5" UpdateWhenVisible="true" IsWritableControl="false" WritableValue="0" IsDrawingShape="false" ShapeTypeStr="" RibbonTool="None">
+      <innercontent>
+        <content ControlType="Numeric" Type="Numeric2">
+          <definitions NumericFontFamilyValue="Arial Black" NumericFontSizeValue="36" NumericForegroundValue="#FF000000" NumericTextAlignmentValue="Left" IsThousandSeparatorEnabled="false" ScalingFactor="1" ScalingOffset="0" ScalingFormat="" LeadingZeroes="0" DecimalPlaces="1" Notation="Regular" Representation="Decimal" Width="281.81318615528437" Height="50.001364953748769" />
+        </content>
+      </innercontent>
+      <symbols>
+        <symbol path="imag" IsAnArrayElement="false" ElementIndex="0" IsCustomSymbol="false" Mask_Enabled="false" Mask_Start_Bit="0" Mask_End_Bit="0" />
+      </symbols>
+    </node>
+    <node ScreenId="DataScreen2" NodeId="CustomDiagramNode16" OffsetX="1218.3868138476958" OffsetY="420.88881981707181" AllowMove="true" AllowResize="false" AllowRotate="false" AllowSelect="true" Width="281.41318614932391" Height="50.001364953748769" ZIndex="3" IsLocked="false" RotateAngle="0" Pivot="0.5,0.5" UpdateWhenVisible="true" IsWritableControl="false" WritableValue="0" IsDrawingShape="false" ShapeTypeStr="" RibbonTool="None">
+      <innercontent>
+        <content ControlType="Numeric" Type="Numeric2">
+          <definitions NumericFontFamilyValue="Arial Black" NumericFontSizeValue="36" NumericForegroundValue="#FF000000" NumericTextAlignmentValue="Left" IsThousandSeparatorEnabled="true" ScalingFactor="1" ScalingOffset="0" ScalingFormat="" LeadingZeroes="0" DecimalPlaces="0" Notation="Regular" Representation="Decimal" Width="281.41318614932391" Height="50.001364953748769" />
+        </content>
+      </innercontent>
+      <symbols>
+        <symbol path="quadrant" IsAnArrayElement="false" ElementIndex="0" IsCustomSymbol="false" Mask_Enabled="false" Mask_Start_Bit="0" Mask_End_Bit="0" />
+      </symbols>
+    </node>
+    <node ScreenId="DataScreen2" NodeId="CustomDiagramNode17" OffsetX="1218.3868138476958" OffsetY="470.89018477082067" AllowMove="true" AllowResize="false" AllowRotate="false" AllowSelect="true" Width="281.41318614932391" Height="50.001364953748769" ZIndex="3" IsLocked="false" RotateAngle="0" Pivot="0.5,0.5" UpdateWhenVisible="true" IsWritableControl="false" WritableValue="0" IsDrawingShape="false" ShapeTypeStr="" RibbonTool="None">
+      <innercontent>
+        <content ControlType="Numeric" Type="Numeric2">
+          <definitions NumericFontFamilyValue="Arial Black" NumericFontSizeValue="36" NumericForegroundValue="#FF000000" NumericTextAlignmentValue="Left" IsThousandSeparatorEnabled="true" ScalingFactor="1" ScalingOffset="0" ScalingFormat="" LeadingZeroes="0" DecimalPlaces="1" Notation="Regular" Representation="Decimal" Width="281.41318614932391" Height="50.001364953748769" />
+        </content>
+      </innercontent>
+      <symbols>
+        <symbol path="phaseRad" IsAnArrayElement="false" ElementIndex="0" IsCustomSymbol="false" Mask_Enabled="false" Mask_Start_Bit="0" Mask_End_Bit="0" />
+      </symbols>
+    </node>
+    <node ScreenId="DataScreen2" NodeId="CustomDiagramNode18" OffsetX="1218.3868138476958" OffsetY="520.89154972456924" AllowMove="true" AllowResize="false" AllowRotate="false" AllowSelect="true" Width="281.41318614932391" Height="50.001364953748769" ZIndex="3" IsLocked="false" RotateAngle="0" Pivot="0.5,0.5" UpdateWhenVisible="true" IsWritableControl="false" WritableValue="0" IsDrawingShape="false" ShapeTypeStr="" RibbonTool="None">
+      <innercontent>
+        <content ControlType="Numeric" Type="Numeric2">
+          <definitions NumericFontFamilyValue="Arial Black" NumericFontSizeValue="36" NumericForegroundValue="#FF000000" NumericTextAlignmentValue="Left" IsThousandSeparatorEnabled="true" ScalingFactor="1" ScalingOffset="0" ScalingFormat="" LeadingZeroes="0" DecimalPlaces="1" Notation="Regular" Representation="Decimal" Width="281.41318614932391" Height="50.001364953748769" />
+        </content>
+      </innercontent>
+      <symbols>
+        <symbol path="phaseDeg" IsAnArrayElement="false" ElementIndex="0" IsCustomSymbol="false" Mask_Enabled="false" Mask_Start_Bit="0" Mask_End_Bit="0" />
+      </symbols>
+    </node>
+    <node ScreenId="DataScreen2" NodeId="CustomDiagramNode19" OffsetX="1218.3868138476958" OffsetY="570.89291467831811" AllowMove="true" AllowResize="false" AllowRotate="false" AllowSelect="true" Width="281.41318614932391" Height="50.001364953748769" ZIndex="3" IsLocked="false" RotateAngle="0" Pivot="0.5,0.5" UpdateWhenVisible="true" IsWritableControl="false" WritableValue="0" IsDrawingShape="false" ShapeTypeStr="" RibbonTool="None">
+      <innercontent>
+        <content ControlType="Numeric" Type="Numeric2">
+          <definitions NumericFontFamilyValue="Arial Black" NumericFontSizeValue="36" NumericForegroundValue="#FF000000" NumericTextAlignmentValue="Left" IsThousandSeparatorEnabled="true" ScalingFactor="1" ScalingOffset="0" ScalingFormat="" LeadingZeroes="0" DecimalPlaces="1" Notation="Regular" Representation="Decimal" Width="281.41318614932391" Height="50.001364953748769" />
+        </content>
+      </innercontent>
+      <symbols>
+        <symbol path="magnitude" IsAnArrayElement="false" ElementIndex="0" IsCustomSymbol="false" Mask_Enabled="false" Mask_Start_Bit="0" Mask_End_Bit="0" />
+      </symbols>
+    </node>
+    <node ScreenId="DataScreen2" NodeId="CustomDiagramNode20" OffsetX="1025.1554556926913" OffsetY="644.83178647562488" AllowMove="true" AllowResize="false" AllowRotate="false" AllowSelect="true" Width="464.40077319587635" Height="224.40159574468086" ZIndex="7" IsLocked="false" RotateAngle="0" Pivot="0.5,0.5" UpdateWhenVisible="true" IsWritableControl="false" WritableValue="0" IsDrawingShape="false" ShapeTypeStr="" RibbonTool="None">
+      <innercontent>
+        <content ControlType="HalfDonut" Type="HalfDonut2">
+          <definitions RangeMax="360" RangeMin="0" RangeIsLogarithmic="false" RangeIsReversed="false" NumberOfRanges="3" MappingMode="Absolute" Transition="Gradient" ScalingFactor="1" ScalingOffset="0" ScalingFormat="" LeadingZeroes="0" DecimalPlaces="3" Width="464.40077319587635" Height="224.40159574468086" />
+          <colors>
+            <color Color="#FF00FF00" Offset="0" Index="0" />
+            <color Color="#FFFFFF00" Offset="1.2" Index="1" />
+            <color Color="#FFFF0000" Offset="2.9" Index="2" />
+          </colors>
+          <ColorStopDataObjects>
+            <ColorStopDataObject CurrentColor="#FF00FF00" DisplayName="" Offset="0" Index="0" />
+            <ColorStopDataObject CurrentColor="#FFFFFF00" DisplayName="" Offset="120" Index="1" />
+            <ColorStopDataObject CurrentColor="#FFFF0000" DisplayName="" Offset="290" Index="2" />
+          </ColorStopDataObjects>
+        </content>
+      </innercontent>
+      <symbols>
+        <symbol path="phaseDeg" IsAnArrayElement="false" ElementIndex="0" IsCustomSymbol="false" Mask_Enabled="false" Mask_Start_Bit="0" Mask_End_Bit="0" />
+      </symbols>
+    </node>
+  </nodes>
+  <screens_objects />
+  <explorer>
+    <content>
+      <nodes>
+        <node IsEnable="true" Name="Project3" NodeType="Project" ScreenType="None" UniqueID="Project2">
+          <node IsEnable="true" Name="DataScreen3" NodeType="Screen" ScreenType="DataScreen" UniqueID="DataScreen2" />
+        </node>
+      </nodes>
+    </content>
+  </explorer>
+  <application IsWorkspaceLocked="false" IsInFullScreenMode="false">
+    <docking>
+      <ArrayOfDockingParams xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+        <DockingParams>
+          <PreviousFloatingWindowRect />
+          <FloatWindowState>Normal</FloatWindowState>
+          <ZorderInFloatMode>0</ZorderInFloatMode>
+          <TabOrderIndex>-1</TabOrderIndex>
+          <PreviousContainerDesiredSize>
+            <Width>1642</Width>
+            <Height>0</Height>
+          </PreviousContainerDesiredSize>
+          <PreviousDesiredWidthInDockedMode>1642</PreviousDesiredWidthInDockedMode>
+          <PreviousDesiredHeightInDockedMode>284</PreviousDesiredHeightInDockedMode>
+          <Name>usrSymbolBrowser</Name>
+          <ShowTopmostMenuItem>false</ShowTopmostMenuItem>
+          <TopMost>false</TopMost>
+          <State>Dock</State>
+          <NoHeader>false</NoHeader>
+          <SideDocked>Bottom</SideDocked>
+          <SideFloating>Left</SideFloating>
+          <TargetDocked />
+          <TargetFloating />
+          <DesiredWidthInDockedMode>1642</DesiredWidthInDockedMode>
+          <DesiredHeightInDockedMode>284</DesiredHeightInDockedMode>
+          <DesiredWidthInFloatingMode>90</DesiredWidthInFloatingMode>
+          <DesiredHeightInFloatingMode>360</DesiredHeightInFloatingMode>
+          <NoDock>false</NoDock>
+          <CanDock>true</CanDock>
+          <CanClose>false</CanClose>
+          <IsSelectedTab>true</IsSelectedTab>
+          <IsActiveWindow>false</IsActiveWindow>
+          <CanSerialize>true</CanSerialize>
+          <WindowRect />
+          <TabGroupName>11400497</TabGroupName>
+          <IsTabGroupOwner>false</IsTabGroupOwner>
+          <SideTabOrder>0</SideTabOrder>
+          <IndexInDockMode>3</IndexInDockMode>
+          <IndexInFloatMode>3</IndexInFloatMode>
+          <TabOrderInDockMode>0</TabOrderInDockMode>
+          <TabOrderInFloatMode>0</TabOrderInFloatMode>
+          <MDIBounds>0,0,124,50</MDIBounds>
+          <TDIIndex>-1</TDIIndex>
+          <IsSelected>false</IsSelected>
+          <MDIMinimizedBounds>0,0,124,24</MDIMinimizedBounds>
+          <MDIWindowState>Normal</MDIWindowState>
+          <AllowMDIResize>true</AllowMDIResize>
+          <TDIGroupOrientation>Horizontal</TDIGroupOrientation>
+          <WayOfTDIGroup />
+          <DockForSide>Bottom</DockForSide>
+          <PreviousIndexInDockMode>0</PreviousIndexInDockMode>
+          <PreviousSideInDockMode>Left</PreviousSideInDockMode>
+          <DoShift>false</DoShift>
+          <SideRelativetoContainer>Left</SideRelativetoContainer>
+          <TabParent />
+          <DockWindowState>Normal</DockWindowState>
+          <CanMaximize>true</CanMaximize>
+          <CanMinimize>true</CanMinimize>
+          <CanResizeInDockedState>true</CanResizeInDockedState>
+          <CanResizeHeightInDockedState>true</CanResizeHeightInDockedState>
+          <CanResizeWidthInDockedState>true</CanResizeWidthInDockedState>
+          <CanResizeInFloatState>true</CanResizeInFloatState>
+          <CanResizeHeightInFloatState>true</CanResizeHeightInFloatState>
+          <CanResizeWidthInFloatState>true</CanResizeWidthInFloatState>
+          <CanFloatMaximize>false</CanFloatMaximize>
+          <IsFixedSize>false</IsFixedSize>
+          <IsFixedHeight>false</IsFixedHeight>
+          <IsFixedWidth>false</IsFixedWidth>
+          <FixedHeight>0</FixedHeight>
+          <FixedWidth>0</FixedWidth>
+          <ContainerSize>
+            <Width>1642</Width>
+            <Height>988</Height>
+          </ContainerSize>
+          <PreviousHostWidth>90</PreviousHostWidth>
+          <PreviousHostHeight>90</PreviousHostHeight>
+          <PreviousContainerHeight>90</PreviousContainerHeight>
+          <PreviousContainerWidth>90</PreviousContainerWidth>
+          <TargetAutoHide />
+          <SplitPanelOffset>0</SplitPanelOffset>
+          <IsSwapped>false</IsSwapped>
+          <IsPinned>false</IsPinned>
+          <ShowPin>false</ShowPin>
+          <AllowPin>false</AllowPin>
+        </DockingParams>
+        <DockingParams>
+          <PreviousFloatingWindowRect />
+          <FloatWindowState>Normal</FloatWindowState>
+          <ZorderInFloatMode>0</ZorderInFloatMode>
+          <TabOrderIndex>-1</TabOrderIndex>
+          <PreviousContainerDesiredSize>
+            <Width>270</Width>
+            <Height>988</Height>
+          </PreviousContainerDesiredSize>
+          <PreviousDesiredWidthInDockedMode>270</PreviousDesiredWidthInDockedMode>
+          <PreviousDesiredHeightInDockedMode>303</PreviousDesiredHeightInDockedMode>
+          <Name>workspaceExplorerMainView</Name>
+          <ShowTopmostMenuItem>false</ShowTopmostMenuItem>
+          <TopMost>false</TopMost>
+          <State>Dock</State>
+          <NoHeader>false</NoHeader>
+          <SideDocked>Left</SideDocked>
+          <SideFloating>Left</SideFloating>
+          <TargetDocked />
+          <TargetFloating />
+          <DesiredWidthInDockedMode>270</DesiredWidthInDockedMode>
+          <DesiredHeightInDockedMode>303</DesiredHeightInDockedMode>
+          <DesiredWidthInFloatingMode>270</DesiredWidthInFloatingMode>
+          <DesiredHeightInFloatingMode>30</DesiredHeightInFloatingMode>
+          <NoDock>false</NoDock>
+          <CanDock>true</CanDock>
+          <CanClose>false</CanClose>
+          <IsSelectedTab>false</IsSelectedTab>
+          <IsActiveWindow>false</IsActiveWindow>
+          <CanSerialize>true</CanSerialize>
+          <WindowRect />
+          <TabGroupName>48308618</TabGroupName>
+          <IsTabGroupOwner>false</IsTabGroupOwner>
+          <SideTabOrder>0</SideTabOrder>
+          <IndexInDockMode>2</IndexInDockMode>
+          <IndexInFloatMode>2</IndexInFloatMode>
+          <TabOrderInDockMode>0</TabOrderInDockMode>
+          <TabOrderInFloatMode>0</TabOrderInFloatMode>
+          <MDIBounds>0,0,124,50</MDIBounds>
+          <TDIIndex>-1</TDIIndex>
+          <IsSelected>false</IsSelected>
+          <MDIMinimizedBounds>0,0,124,24</MDIMinimizedBounds>
+          <MDIWindowState>Normal</MDIWindowState>
+          <AllowMDIResize>true</AllowMDIResize>
+          <TDIGroupOrientation>Horizontal</TDIGroupOrientation>
+          <WayOfTDIGroup />
+          <DockForSide>Left</DockForSide>
+          <PreviousIndexInDockMode>0</PreviousIndexInDockMode>
+          <PreviousSideInDockMode>Top</PreviousSideInDockMode>
+          <DoShift>false</DoShift>
+          <SideRelativetoContainer>Left</SideRelativetoContainer>
+          <TabParent />
+          <DockWindowState>Normal</DockWindowState>
+          <CanMaximize>true</CanMaximize>
+          <CanMinimize>true</CanMinimize>
+          <CanResizeInDockedState>true</CanResizeInDockedState>
+          <CanResizeHeightInDockedState>true</CanResizeHeightInDockedState>
+          <CanResizeWidthInDockedState>true</CanResizeWidthInDockedState>
+          <CanResizeInFloatState>true</CanResizeInFloatState>
+          <CanResizeHeightInFloatState>true</CanResizeHeightInFloatState>
+          <CanResizeWidthInFloatState>true</CanResizeWidthInFloatState>
+          <CanFloatMaximize>false</CanFloatMaximize>
+          <IsFixedSize>false</IsFixedSize>
+          <IsFixedHeight>false</IsFixedHeight>
+          <IsFixedWidth>false</IsFixedWidth>
+          <FixedHeight>0</FixedHeight>
+          <FixedWidth>0</FixedWidth>
+          <ContainerSize>
+            <Width>270</Width>
+            <Height>988</Height>
+          </ContainerSize>
+          <PreviousHostWidth>90</PreviousHostWidth>
+          <PreviousHostHeight>90</PreviousHostHeight>
+          <PreviousContainerHeight>90</PreviousContainerHeight>
+          <PreviousContainerWidth>90</PreviousContainerWidth>
+          <TargetAutoHide />
+          <SplitPanelOffset>0</SplitPanelOffset>
+          <IsSwapped>true</IsSwapped>
+          <IsPinned>false</IsPinned>
+          <ShowPin>false</ShowPin>
+          <AllowPin>false</AllowPin>
+        </DockingParams>
+        <DockingParams>
+          <PreviousFloatingWindowRect />
+          <FloatWindowState>Normal</FloatWindowState>
+          <ZorderInFloatMode>0</ZorderInFloatMode>
+          <TabOrderIndex>-1</TabOrderIndex>
+          <PreviousContainerDesiredSize>
+            <Width>270</Width>
+            <Height>988</Height>
+          </PreviousContainerDesiredSize>
+          <PreviousDesiredWidthInDockedMode>270</PreviousDesiredWidthInDockedMode>
+          <PreviousDesiredHeightInDockedMode>681</PreviousDesiredHeightInDockedMode>
+          <Name>toolboxMainView</Name>
+          <ShowTopmostMenuItem>false</ShowTopmostMenuItem>
+          <TopMost>false</TopMost>
+          <State>Dock</State>
+          <NoHeader>false</NoHeader>
+          <SideDocked>Bottom</SideDocked>
+          <SideFloating>Left</SideFloating>
+          <TargetDocked>workspaceExplorerMainView</TargetDocked>
+          <TargetFloating />
+          <DesiredWidthInDockedMode>270</DesiredWidthInDockedMode>
+          <DesiredHeightInDockedMode>681</DesiredHeightInDockedMode>
+          <DesiredWidthInFloatingMode>90</DesiredWidthInFloatingMode>
+          <DesiredHeightInFloatingMode>90</DesiredHeightInFloatingMode>
+          <NoDock>false</NoDock>
+          <CanDock>true</CanDock>
+          <CanClose>false</CanClose>
+          <IsSelectedTab>false</IsSelectedTab>
+          <IsActiveWindow>false</IsActiveWindow>
+          <CanSerialize>true</CanSerialize>
+          <WindowRect />
+          <TabGroupName>20683946</TabGroupName>
+          <IsTabGroupOwner>false</IsTabGroupOwner>
+          <SideTabOrder>0</SideTabOrder>
+          <IndexInDockMode>1</IndexInDockMode>
+          <IndexInFloatMode>1</IndexInFloatMode>
+          <TabOrderInDockMode>0</TabOrderInDockMode>
+          <TabOrderInFloatMode>0</TabOrderInFloatMode>
+          <MDIBounds>0,0,124,50</MDIBounds>
+          <TDIIndex>-1</TDIIndex>
+          <IsSelected>false</IsSelected>
+          <MDIMinimizedBounds>0,0,124,24</MDIMinimizedBounds>
+          <MDIWindowState>Normal</MDIWindowState>
+          <AllowMDIResize>true</AllowMDIResize>
+          <TDIGroupOrientation>Horizontal</TDIGroupOrientation>
+          <WayOfTDIGroup />
+          <DockForSide>Left</DockForSide>
+          <PreviousIndexInDockMode>0</PreviousIndexInDockMode>
+          <PreviousSideInDockMode>Left</PreviousSideInDockMode>
+          <DoShift>false</DoShift>
+          <SideRelativetoContainer>Left</SideRelativetoContainer>
+          <TabParent />
+          <DockWindowState>Normal</DockWindowState>
+          <CanMaximize>true</CanMaximize>
+          <CanMinimize>true</CanMinimize>
+          <CanResizeInDockedState>true</CanResizeInDockedState>
+          <CanResizeHeightInDockedState>true</CanResizeHeightInDockedState>
+          <CanResizeWidthInDockedState>true</CanResizeWidthInDockedState>
+          <CanResizeInFloatState>true</CanResizeInFloatState>
+          <CanResizeHeightInFloatState>true</CanResizeHeightInFloatState>
+          <CanResizeWidthInFloatState>true</CanResizeWidthInFloatState>
+          <CanFloatMaximize>false</CanFloatMaximize>
+          <IsFixedSize>false</IsFixedSize>
+          <IsFixedHeight>false</IsFixedHeight>
+          <IsFixedWidth>false</IsFixedWidth>
+          <FixedHeight>0</FixedHeight>
+          <FixedWidth>0</FixedWidth>
+          <ContainerSize>
+            <Width>270</Width>
+            <Height>988</Height>
+          </ContainerSize>
+          <PreviousHostWidth>90</PreviousHostWidth>
+          <PreviousHostHeight>90</PreviousHostHeight>
+          <PreviousContainerHeight>90</PreviousContainerHeight>
+          <PreviousContainerWidth>90</PreviousContainerWidth>
+          <TargetAutoHide />
+          <SplitPanelOffset>0</SplitPanelOffset>
+          <IsSwapped>true</IsSwapped>
+          <IsPinned>false</IsPinned>
+          <ShowPin>false</ShowPin>
+          <AllowPin>false</AllowPin>
+        </DockingParams>
+        <DockingParams>
+          <PreviousFloatingWindowRect />
+          <FloatWindowState>Normal</FloatWindowState>
+          <ZorderInFloatMode>0</ZorderInFloatMode>
+          <TabOrderIndex>0</TabOrderIndex>
+          <PreviousContainerDesiredSize>
+            <Width>0</Width>
+            <Height>0</Height>
+          </PreviousContainerDesiredSize>
+          <PreviousDesiredWidthInDockedMode>0</PreviousDesiredWidthInDockedMode>
+          <PreviousDesiredHeightInDockedMode>0</PreviousDesiredHeightInDockedMode>
+          <Name>DataScreen2</Name>
+          <ShowTopmostMenuItem>false</ShowTopmostMenuItem>
+          <TopMost>false</TopMost>
+          <State>Document</State>
+          <NoHeader>false</NoHeader>
+          <SideDocked>Left</SideDocked>
+          <SideFloating>Left</SideFloating>
+          <TargetDocked />
+          <TargetFloating />
+          <DesiredWidthInDockedMode>90</DesiredWidthInDockedMode>
+          <DesiredHeightInDockedMode>90</DesiredHeightInDockedMode>
+          <DesiredWidthInFloatingMode>90</DesiredWidthInFloatingMode>
+          <DesiredHeightInFloatingMode>90</DesiredHeightInFloatingMode>
+          <NoDock>false</NoDock>
+          <CanDock>false</CanDock>
+          <CanClose>false</CanClose>
+          <IsSelectedTab>false</IsSelectedTab>
+          <IsActiveWindow>true</IsActiveWindow>
+          <CanSerialize>true</CanSerialize>
+          <WindowRect />
+          <TabGroupName />
+          <IsTabGroupOwner>false</IsTabGroupOwner>
+          <SideTabOrder>0</SideTabOrder>
+          <IndexInDockMode>0</IndexInDockMode>
+          <IndexInFloatMode>0</IndexInFloatMode>
+          <TabOrderInDockMode>0</TabOrderInDockMode>
+          <TabOrderInFloatMode>0</TabOrderInFloatMode>
+          <MDIBounds>0,0,124,50</MDIBounds>
+          <TDIIndex>0</TDIIndex>
+          <IsSelected>true</IsSelected>
+          <MDIMinimizedBounds>0,0,124,24</MDIMinimizedBounds>
+          <MDIWindowState>Normal</MDIWindowState>
+          <AllowMDIResize>true</AllowMDIResize>
+          <TDIGroupOrientation>Horizontal</TDIGroupOrientation>
+          <WayOfTDIGroup />
+          <DockForSide>Left</DockForSide>
+          <PreviousIndexInDockMode>0</PreviousIndexInDockMode>
+          <PreviousSideInDockMode>Left</PreviousSideInDockMode>
+          <DoShift>false</DoShift>
+          <SideRelativetoContainer>Left</SideRelativetoContainer>
+          <TabParent />
+          <DockWindowState>Normal</DockWindowState>
+          <CanMaximize>true</CanMaximize>
+          <CanMinimize>true</CanMinimize>
+          <CanResizeInDockedState>true</CanResizeInDockedState>
+          <CanResizeHeightInDockedState>true</CanResizeHeightInDockedState>
+          <CanResizeWidthInDockedState>true</CanResizeWidthInDockedState>
+          <CanResizeInFloatState>true</CanResizeInFloatState>
+          <CanResizeHeightInFloatState>true</CanResizeHeightInFloatState>
+          <CanResizeWidthInFloatState>true</CanResizeWidthInFloatState>
+          <CanFloatMaximize>true</CanFloatMaximize>
+          <IsFixedSize>false</IsFixedSize>
+          <IsFixedHeight>false</IsFixedHeight>
+          <IsFixedWidth>false</IsFixedWidth>
+          <FixedHeight>0</FixedHeight>
+          <FixedWidth>0</FixedWidth>
+          <ContainerSize>
+            <Width>0</Width>
+            <Height>0</Height>
+          </ContainerSize>
+          <PreviousHostWidth>90</PreviousHostWidth>
+          <PreviousHostHeight>90</PreviousHostHeight>
+          <PreviousContainerHeight>90</PreviousContainerHeight>
+          <PreviousContainerWidth>90</PreviousContainerWidth>
+          <TargetAutoHide />
+          <SplitPanelOffset>0</SplitPanelOffset>
+          <IsSwapped>false</IsSwapped>
+          <IsPinned>false</IsPinned>
+          <ShowPin>false</ShowPin>
+          <AllowPin>false</AllowPin>
+        </DockingParams>
+      </ArrayOfDockingParams>
+    </docking>
+  </application>
+</workspace>

@@ -1,0 +1,1 @@
+CMSIS and GD32F10x_Firmware_Library_V2.1.2, are included in the project using the Keil Pack manager, so the files in this directory are actually not referenced by the compiler for generating the project files.

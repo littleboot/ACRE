@@ -1,0 +1,1 @@
+Firmware fot the Absolute Capacitive Rotary Encoder (ACRE).

@@ -1,0 +1,42 @@
+
+# Prerequisites
+*.d
+*.dep
+# Object files
+*.o
+*.obj
+*.OBJ
+# Listing Files
+*.COD
+*.cod
+*.[Ii]
+*.LST
+*.lst
+*.MAP
+*.map
+*.[Mm]51
+*.[Mm]66
+*.SCR
+*.scr
+# LINK output
+*.ABS
+# Libraries
+*.lib
+*.LIB
+# uv output
+*.lnp
+*.build_log.htm
+# Build Files
+*._IA
+*.__[Ii]
+*._[Ii][Ii]
+# project
+*.uvgui.*
+*.uvguix.*
+# Jlink
+JLinkLog.txt
+#other
+*.Admin
+*.log
+*.htm
+*.log.lock

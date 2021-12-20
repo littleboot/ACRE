@@ -1,0 +1,19 @@
+{
+    "files.associations": {
+        "gd32f10x.h": "c",
+        "systick.h": "c",
+        "system_gd32f10x.h": "c",
+        "core_cm3.h": "c",
+        "gd32f10x_libopt.h": "c",
+        "main.h": "c",
+        "rte_components.h": "c",
+        "math.h": "c",
+        "cmath": "c",
+        "i2c.h": "c",
+        "adafruit_ssd1306.h": "c",
+        "ssd1306.h": "c",
+        "ssd1306_conf.h": "c",
+        "stddef.h": "c",
+        "stdio.h": "c"
+    }
+}
