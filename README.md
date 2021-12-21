@@ -15,6 +15,7 @@ I will explain the basic working principle here, I might do a more detailed writ
 <img src="./docs/images/Hotplate_soldering_photo01.png" alt="Hotplate_soldering_photo01" width="500"/>
 <img src="./docs/images/Tranceiver_PCB_3D_render.png" alt="Tranceiver PCB 3D Render" width="500"/>
 <img src="./docs/images/Scope_signals02.png" alt="Scope_signals02" width="500"/>
+<img src="./docs/images/debug_dsp_screenshot.png" alt="debug dps" width="500"/>
 
 **Videos**  
 I made videos's of the testing debugging and assembly process, links below. Please keep in mind these are uneddited.
