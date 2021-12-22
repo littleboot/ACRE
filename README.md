@@ -51,3 +51,17 @@ The sensor consists out of two PCB's a transceiver PCB that holds the transmit a
 
 *Transceiver and Reflector electrodes drawn on top of each other (to better see alignment)*  
 
+## Electronics design
+Generating eight 45 degrees apart phase shifted pure analog sine waves it quite difficult so instead the sine is modulated on a PWM signal which makes it easy and cheap to implement.
+ 
+However the signals that are used in this project aren't sine modulated PWM signals but something else instead. At the moment it is still a mistery for me how these signals came to be. After many hours trying to figure out how to generate these signals from scratch I decided to clone them in stead.  
+<img src="./docs/images/Transmit_signals.png" alt="Transmit_signals" width="1000"/> 
+
+**Replicating the transmission signals**  
+First the caliper transmission signals were measured using a logic analyser (*\ACRE\Other\Caliper Transmission signals.logicdata*). Using the Saleae Logic software the HIGH and LOW periods of a single transmit signal for a full period (when the full signal repeats) were measured and put into a excel sheet (*\ACRE\Other\Caliper Signal sample calculation.xlsx*). Next a time period T was choosen in which the signal could be expressed. 
+Using this information and a matlab script a lookup table that can be used on the MCU was created (*\ACRE\Other\signalLutGeneration.m*).
+
+**Bias signal**  
+While reverse engineering a caliper another signal was discovered on the receiving electrode. This signal was pulling the receiver electrode to ground at a fixed interval in sync with the transmit signals. I believe the purpose of this signal is to discharge the receiver electrode in between samples. This signal was deconstructed and converted to a lookup table so it could be used to replicate the signal on a MCU.
+
+
