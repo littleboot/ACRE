@@ -159,40 +159,6 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=JAWKZJJM
 
-[Document8]
-DocumentPath=..\..\..\..\..\Altium\Altium Marc Schuurman\Footprints\Mechanical.PcbLib
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=-1
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=1
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=BGQABYEC
-
-[Document9]
-DocumentPath=..\..\..\..\..\Altium\Database_2.0\PcbLibraries\SOT753 IPC MEDIUM - NEXPERIA.PcbLib
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=-1
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=1
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=KIATVYCE
-
 [ProjectVariant1]
 UniqueID=C2A7AF2A-B3B5-4E2E-B852-6ED41C80F5D6
 Description=Original
@@ -216,68 +182,68 @@ DocumentPath=Project Outputs for T211110V01\Design Rule Check - Tranceiver PCB -
 DItemRevisionGUID=
 
 [Parameter1]
-Name=SchematicSheetTotal
-Value=2
-
-[Parameter2]
-Name=SchematicCheckedBy
-Value=Tom Klijn
-
-[Parameter3]
-Name=SchematicAuthor
-Value=Tom Klijn
-
-[Parameter4]
-Name=SchematicApprovedBy
-Value=Tom Klijn
-
-[Parameter5]
-Name=Revision
-Value=V01
-
-[Parameter6]
-Name=Project_Name
-Value=ACRE
-
-[Parameter7]
-Name=ProjectNumber
-Value=T211110
-
-[Parameter8]
-Name=PCBCheckedBy
-Value=Tom Klijn
-
-[Parameter9]
-Name=PCBAuthor
-Value=Tom Klijn
-
-[Parameter10]
-Name=PCBApprovedBy
-Value=Tom Klijn
-
-[Parameter11]
-Name=CompanyName
-Value=None
-
-[Parameter12]
-Name=Client
-Value=Open Source
-
-[Parameter13]
-Name=Address4
-Value=www.vadernatuur.net
-
-[Parameter14]
-Name=Address3
+Name=Address1
 Value=
 
-[Parameter15]
+[Parameter2]
 Name=Address2
 Value=Den Haag
 
-[Parameter16]
-Name=Address1
+[Parameter3]
+Name=Address3
 Value=
+
+[Parameter4]
+Name=Address4
+Value=www.vadernatuur.net
+
+[Parameter5]
+Name=Client
+Value=Open Source
+
+[Parameter6]
+Name=CompanyName
+Value=None
+
+[Parameter7]
+Name=PCBApprovedBy
+Value=Tom Klijn
+
+[Parameter8]
+Name=PCBAuthor
+Value=Tom Klijn
+
+[Parameter9]
+Name=PCBCheckedBy
+Value=Tom Klijn
+
+[Parameter10]
+Name=Project_Name
+Value=ACRE
+
+[Parameter11]
+Name=ProjectNumber
+Value=T211110
+
+[Parameter12]
+Name=Revision
+Value=V01
+
+[Parameter13]
+Name=SchematicApprovedBy
+Value=Tom Klijn
+
+[Parameter14]
+Name=SchematicAuthor
+Value=Tom Klijn
+
+[Parameter15]
+Name=SchematicCheckedBy
+Value=Tom Klijn
+
+[Parameter16]
+Name=SchematicSheetTotal
+Value=2
 
 [Configuration1]
 Name=Sources
