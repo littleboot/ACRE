@@ -97,16 +97,20 @@ Quite a few tools were used while creating this project but I would like to high
 I might design a new revision in the future I pretty certain I will be able to create a version with a much higher resolution knowing what I have learned from this first prototype. Before beginning this new endeavor I would like to improve the firmware first.
 
 ## Related projects
-I have developed two caliper technologie based projects in the past.
-A test prototype to validate if replicating the caliper technology was possible. And a caliper made out of multiple PCB's based uppon this project but I never ordered the PCB's for this project. I might release these projects on github in the future. Below some pictures of these projects to give an impression. 
+I have developed two capacitive displacement sensor projects in the past.
+The first project was a test prototype to validate if replicating the caliper technology without an ASIC was possible. And the second was a caliper constructed out of PCB's however I never ordered the PCB's for the latter because I needed to make a small change and never made time for it. I might finish the PCB caliper project in the future. Let me know if you are interrested. Below some pictures of these projects to give an impression.
 
 **Lineair Displacement Sensor (LDS)**  
 <img src="./docs/images/Lineair_Displacement_Sensor_photo01.png" alt="Lineair_Displacement_Sensor_photo01" width="500"/>  
 *Photo testing LDS PCB*
 
 **PCB Caliper**  
+<img src="./docs/images/PCB_Caliper_assembly_3D_render_top.png" alt="PCB_Caliper_assembly_3D_render_top" width="500"/>  
+*PCB Caliper render top*  
+<img src="./docs/images/PCB_Caliper_assembly_3D_render_bot.png" alt="PCB_Caliper_assembly_3D_render_bot" width="500"/>  
+*PCB Caliper render bottom*  
 <img src="./docs/images/PCB_Caliper_panel.png" alt="PCB_Caliper_panel" width="500"/>  
-*PCB Caliper panel*
+*PCB Caliper kit panel*
 
 ## Purchasing?
 [Contact me](mailto:purchase@vadernatuur.net?subject=Purchase%20ACRE) if you would like to purchase an ACRE board. I have a few assembled boards laying around collecting dust. I might even consider doing a small production run if there is interest for it. Keep in mind this project is 100% open source so I would advise building your own.
