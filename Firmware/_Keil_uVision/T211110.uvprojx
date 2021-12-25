@@ -339,7 +339,7 @@
               <MiscControls>-Wno-padded -Wno-covered-switch-default</MiscControls>
               <Define>USE_STDPERIPH_DRIVER,GD32F10X_MD,HXTAL_VALUE=12000000</Define>
               <Undefine></Undefine>
-              <IncludePath>..\Include;..\Libraries\SSD1306_OLED_Display\include;.\RTE\_GD32F103CB;..\..\..\..\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include;..\..\..\..\AppData\Local\Arm\Packs\GigaDevice\GD32F10x_DFP\2.0.2\Device\Include;..\..\..\..\AppData\Local\Arm\Packs\GigaDevice\GD32F10x_DFP\2.0.2\Device\Firmware\Peripherals\inc</IncludePath>
+              <IncludePath>..\Include;..\Libraries\SSD1306_OLED_Display\include;..\Libraries\cli\include;.\RTE\_T211110V01;..\..\..\..\..\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include;..\..\..\..\..\AppData\Local\Arm\Packs\GigaDevice\GD32F10x_DFP\2.0.2\Device\Include;..\..\..\..\..\AppData\Local\Arm\Packs\GigaDevice\GD32F10x_DFP\2.0.2\Device\Firmware\Peripherals\inc</IncludePath>
             </VariousControls>
           </Cads>
           <Aads>
@@ -432,6 +432,11 @@
               <FileName>ssd1306_fonts.c</FileName>
               <FileType>1</FileType>
               <FilePath>..\Libraries\SSD1306_OLED_Display\source\ssd1306_fonts.c</FilePath>
+            </File>
+            <File>
+              <FileName>cli.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\Libraries\cli\source\cli.c</FilePath>
             </File>
           </Files>
         </Group>

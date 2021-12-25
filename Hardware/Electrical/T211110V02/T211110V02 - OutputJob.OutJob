@@ -1,0 +1,679 @@
+[OutputJobFile]
+Version=1.0
+Caption=
+Description=
+VaultGUID=
+ItemGUID=
+ItemHRID=
+RevisionGUID=
+RevisionId=
+VaultHRID=
+AutoItemHRID=
+NextRevId=
+FolderGUID=
+LifeCycleDefinitionGUID=
+RevisionNamingSchemeGUID=
+
+[OutputGroup1]
+Name=T211110V01 - OutputJob.OutJob
+Description=
+TargetOutputMedium=3D models
+VariantName=Original
+VariantScope=1
+CurrentConfigurationName=
+TargetPrinter=Microsoft Print to PDF
+PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=0
+OutputMedium1=Print To
+OutputMedium1_Type=Printer
+OutputMedium1_Printer=
+OutputMedium1_PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
+OutputMedium2=Publish To Web
+OutputMedium2_Type=PublishToWeb
+OutputMedium3=Tranceiver Gerbers
+OutputMedium3_Type=GeneratedFiles
+OutputMedium4=Spacer Gerbers
+OutputMedium4_Type=GeneratedFiles
+OutputMedium5=Reflector Gerbers
+OutputMedium5_Type=GeneratedFiles
+OutputMedium6=Backplate Gerbers
+OutputMedium6_Type=GeneratedFiles
+OutputMedium7=Documentation: BOM
+OutputMedium7_Type=GeneratedFiles
+OutputMedium8=Documentation: Schematic
+OutputMedium8_Type=Publish
+OutputMedium9=3D models
+OutputMedium9_Type=GeneratedFiles
+OutputType1=Gerber
+OutputName1=Tranceiver Gerbers
+OutputCategory1=Fabrication
+OutputDocumentPath1=Tranceiver PCB - JLCPCB - 2 Layer - 1oz 1.6mm.PcbDoc
+OutputVariantName1=
+OutputEnabled1=0
+OutputEnabled1_OutputMedium1=0
+OutputEnabled1_OutputMedium2=0
+OutputEnabled1_OutputMedium3=1
+OutputEnabled1_OutputMedium4=0
+OutputEnabled1_OutputMedium5=0
+OutputEnabled1_OutputMedium6=0
+OutputEnabled1_OutputMedium7=0
+OutputEnabled1_OutputMedium8=0
+OutputEnabled1_OutputMedium9=0
+OutputDefault1=0
+Configuration1_Name1=OutputConfigurationParameter1
+Configuration1_Item1=AddToAllLayerClasses.Set= |AddToAllPlots.Set=SerializeLayerHash.Version~2,ClassName~TPlotLayerStateArray|CentrePlots=False|DrillDrawingSymbol=GraphicsSymbol|DrillDrawingSymbolSize=200000|EmbeddedApertures=True|FilmBorderSize=10000000|FilmXSize=200000000|FilmYSize=160000000|FlashAllFills=False|FlashPadShapes=True|G54OnApertureChange=False|GenerateDRCRulesFile=True|GenerateDRCRulesFile=True|GenerateReliefShapes=True|GerberUnit=Imperial|GerberUnit=Imperial|IncludeUnconnectedMidLayerPads=False|LayerClassesMirror.Set= |LayerClassesPlot.Set= |LeadingAndTrailingZeroesMode=SuppressLeadingZeroes|MaxApertureSize=2500000|MinusApertureTolerance=40|MinusApertureTolerance=40|Mirror.Set=SerializeLayerHash.Version~2,ClassName~TPlotLayerStateArray|MirrorDrillDrawingPlots=False|MirrorDrillGuidePlots=False|NoRegularPolygons=False|NumberOfDecimals=5|NumberOfDecimals=5|OptimizeChangeLocationCommands=True|OptimizeChangeLocationCommands=True|OriginPosition=Relative|Panelize=False|Plot.Set=SerializeLayerHash.Version~2,ClassName~TPlotLayerStateArray,16973830~1,16973832~1,16973834~1,16777217~1,16842751~1,16973835~1,16973831~1,16908308~1|PlotPositivePlaneLayers=False|PlotUsedDrillDrawingLayerPairs=True|PlotUsedDrillGuideLayerPairs=True|PlusApertureTolerance=40|PlusApertureTolerance=40|Record=GerberView|SoftwareArcs=True|Sorted=False|Sorted=False|DocumentPath=C:\Users\Admin\stack\Vader Natuur\T211110 - NEMA 17 Encoder\Hardware\Electrical\T211110V01\Boards\Tranceiver PCB - JLCPCB - 2 Layer - 1oz 1.6mm.PcbDoc
+OutputType2=NC Drill
+OutputName2=Tranceiver NC Drill
+OutputCategory2=Fabrication
+OutputDocumentPath2=Tranceiver PCB - JLCPCB - 2 Layer - 1oz 1.6mm.PcbDoc
+OutputVariantName2=
+OutputEnabled2=0
+OutputEnabled2_OutputMedium1=0
+OutputEnabled2_OutputMedium2=0
+OutputEnabled2_OutputMedium3=2
+OutputEnabled2_OutputMedium4=0
+OutputEnabled2_OutputMedium5=0
+OutputEnabled2_OutputMedium6=0
+OutputEnabled2_OutputMedium7=0
+OutputEnabled2_OutputMedium8=0
+OutputEnabled2_OutputMedium9=0
+OutputDefault2=0
+Configuration2_Name1=OutputConfigurationParameter1
+Configuration2_Item1=BoardEdgeRoutToolDia=787400|GenerateBoardEdgeRout=False|GenerateDrilledSlotsG85=False|GenerateEIADrillFile=False|GenerateSeparatePlatedNonPlatedFiles=False|NumberOfDecimals=4|NumberOfUnits=2|OptimizeChangeLocationCommands=True|OriginPosition=Relative|Record=DrillView|Units=Imperial|ZeroesMode=SuppressLeadingZeroes|DocumentPath=C:\Users\Admin\stack\Vader Natuur\T211110 - NEMA 17 Encoder\Hardware\Electrical\T211110V01\Boards\Tranceiver PCB - JLCPCB - 2 Layer - 1oz 1.6mm.PcbDoc
+OutputType3=Schematic Print
+OutputName3=Schematic
+OutputCategory3=Documentation
+OutputDocumentPath3=
+OutputVariantName3=
+OutputEnabled3=0
+OutputEnabled3_OutputMedium1=1
+OutputEnabled3_OutputMedium2=0
+OutputEnabled3_OutputMedium3=0
+OutputEnabled3_OutputMedium4=0
+OutputEnabled3_OutputMedium5=0
+OutputEnabled3_OutputMedium6=0
+OutputEnabled3_OutputMedium7=0
+OutputEnabled3_OutputMedium8=1
+OutputEnabled3_OutputMedium9=0
+OutputDefault3=0
+PageOptions3=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=73.37|XCorrection=0.01|YCorrection=0.01|PrintKind=0|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
+Configuration3_Name1=OutputConfigurationParameter1
+Configuration3_Item1=Record=SchPrintView|ShowNoERC=True|ShowParamSet=True|ShowProbe=True|ShowBlanket=True|NoERCSymbolsToShow="Thin Cross","Thick Cross","Small Cross",Checkbox,Triangle|ShowNote=True|ShowNoteCollapsed=True|ShowOpenEnds=True|ExpandDesignator=True|ExpandNetLabel=False|ExpandPort=False|ExpandSheetNum=False|ExpandDocNum=False|PrintArea=0|PrintAreaRect.X1=0|PrintAreaRect.Y1=0|PrintAreaRect.X2=0|PrintAreaRect.Y2=0|DocumentPath=All SCH Documents
+OutputType4=BOM_PartType
+OutputName4=Bill of Materials
+OutputCategory4=Report
+OutputDocumentPath4=
+OutputVariantName4=
+OutputEnabled4=0
+OutputEnabled4_OutputMedium1=0
+OutputEnabled4_OutputMedium2=0
+OutputEnabled4_OutputMedium3=0
+OutputEnabled4_OutputMedium4=0
+OutputEnabled4_OutputMedium5=0
+OutputEnabled4_OutputMedium6=0
+OutputEnabled4_OutputMedium7=1
+OutputEnabled4_OutputMedium8=0
+OutputEnabled4_OutputMedium9=0
+OutputDefault4=0
+PageOptions4=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=Letter|PaperIndex=1
+Configuration4_Name1=ColumnNameFormat
+Configuration4_Item1=CaptionAsName
+Configuration4_Name2=General
+Configuration4_Item2=OpenExported=True|AddToProject=False|ReportBOMViolationsInMessages=False|ForceFit=False|NotFitted=True|Database=False|DatabasePriority=False|IncludePcbData=False|IncludeVaultData=False|IncludeCloudData=False|IncludeDocumentData=True|IncludeAlternatives=False|ShowExportOptions=True|TemplateFilename=|TemplateVaultGuid=|TemplateItemGuid=|TemplateRevisionGuid=|BatchMode=5|FormWidth=1934|FormHeight=1214|SupplierProdQty=1|SupplierAutoQty=False|SupplierUseCachedPricing=False|SupplierCurrency=USD|SolutionsPerItem=1|SuppliersPerSolution=1|ViewType=1|UseDirectApi=False|BomSetName=
+Configuration4_Name3=GroupOrder
+Configuration4_Item3=Comment=True|Footprint=True
+Configuration4_Name4=SortOrder
+Configuration4_Item4=Designator=Up|Comment=Up|Footprint=Up
+Configuration4_Name5=VisibleOrder
+Configuration4_Item5=Designator=181|Comment=121|Description=226|Part Number=100|Manufacturer=100|Footprint=138|Supplier 1=81|Supplier Part Number 1=89|Supplier 2=100|Supplier Part Number 2=100|Supplier 3=100|Supplier Part Number 3=100|Quantity=73
+Configuration4_Name6=VisibleOrder_Base
+Configuration4_Item6=Fitted=74|Designator=181|Comment=121|Description=226|Footprint=138|Supplier 1=81|Supplier Part Number 1=89|Quantity=73
+Configuration4_Name7=VisibleOrder_Consolidated
+Configuration4_Item7=Line #=100|Comment=100|Description=100|Designator=100|Quantity=100|Fitted=100|Manufacturer 1=119|Manufacturer Part Number 1=186|Manufacturer Lifecycle 1=164|Supplier 1=92|Supplier Part Number 1=159|Supplier Unit Price 1=144|Supplier Subtotal 1=139|Quantity@Original=100|Price@Original=100
+Configuration4_Name8=VisibleOrder_Flat
+Configuration4_Item8=Designator=181|Comment=121|Description=226|Part Number=100|Manufacturer=100|Footprint=138|Supplier 1=81|Supplier Part Number 1=89|Supplier 2=100|Supplier Part Number 2=100|Supplier 3=100|Supplier Part Number 3=100|Quantity=73
+OutputType5=Gerber
+OutputName5=Spacer Gerbers
+OutputCategory5=Fabrication
+OutputDocumentPath5=Spacer PCB - JLCPCB - 2 Layer - 1oz 1.6mm.PcbDoc
+OutputVariantName5=
+OutputEnabled5=0
+OutputEnabled5_OutputMedium1=0
+OutputEnabled5_OutputMedium2=0
+OutputEnabled5_OutputMedium3=0
+OutputEnabled5_OutputMedium4=1
+OutputEnabled5_OutputMedium5=0
+OutputEnabled5_OutputMedium6=0
+OutputEnabled5_OutputMedium7=0
+OutputEnabled5_OutputMedium8=0
+OutputEnabled5_OutputMedium9=0
+OutputDefault5=0
+Configuration5_Name1=OutputConfigurationParameter1
+Configuration5_Item1=AddToAllLayerClasses.Set= |AddToAllPlots.Set=SerializeLayerHash.Version~2,ClassName~TPlotLayerStateArray|CentrePlots=False|DrillDrawingSymbol=GraphicsSymbol|DrillDrawingSymbolSize=200000|EmbeddedApertures=True|FilmBorderSize=10000000|FilmXSize=200000000|FilmYSize=160000000|FlashAllFills=False|FlashPadShapes=True|G54OnApertureChange=False|GenerateDRCRulesFile=True|GenerateDRCRulesFile=True|GenerateReliefShapes=True|GerberUnit=Imperial|GerberUnit=Imperial|IncludeUnconnectedMidLayerPads=False|LayerClassesMirror.Set= |LayerClassesPlot.Set= |LeadingAndTrailingZeroesMode=SuppressLeadingZeroes|MaxApertureSize=2500000|MinusApertureTolerance=40|MinusApertureTolerance=40|Mirror.Set=SerializeLayerHash.Version~2,ClassName~TPlotLayerStateArray|MirrorDrillDrawingPlots=False|MirrorDrillGuidePlots=False|NoRegularPolygons=False|NumberOfDecimals=5|NumberOfDecimals=5|OptimizeChangeLocationCommands=True|OptimizeChangeLocationCommands=True|OriginPosition=Relative|Panelize=False|Plot.Set=SerializeLayerHash.Version~2,ClassName~TPlotLayerStateArray,16973830~1,16973834~1,16777217~1,16842751~1,16973835~1,16973831~1,16908308~1|PlotPositivePlaneLayers=False|PlotUsedDrillDrawingLayerPairs=True|PlotUsedDrillGuideLayerPairs=True|PlusApertureTolerance=40|PlusApertureTolerance=40|Record=GerberView|SoftwareArcs=True|Sorted=False|Sorted=False|DocumentPath=C:\Users\Admin\stack\Vader Natuur\T211110 - NEMA 17 Encoder\Hardware\Electrical\T211110V01\Boards\Spacer PCB - JLCPCB - 2 Layer - 1oz 1.6mm.PcbDoc
+OutputType6=NC Drill
+OutputName6=Spacer NC Drill
+OutputCategory6=Fabrication
+OutputDocumentPath6=Spacer PCB - JLCPCB - 2 Layer - 1oz 1.6mm.PcbDoc
+OutputVariantName6=
+OutputEnabled6=0
+OutputEnabled6_OutputMedium1=0
+OutputEnabled6_OutputMedium2=0
+OutputEnabled6_OutputMedium3=0
+OutputEnabled6_OutputMedium4=2
+OutputEnabled6_OutputMedium5=0
+OutputEnabled6_OutputMedium6=0
+OutputEnabled6_OutputMedium7=0
+OutputEnabled6_OutputMedium8=0
+OutputEnabled6_OutputMedium9=0
+OutputDefault6=0
+Configuration6_Name1=OutputConfigurationParameter1
+Configuration6_Item1=BoardEdgeRoutToolDia=787400|GenerateBoardEdgeRout=False|GenerateDrilledSlotsG85=False|GenerateEIADrillFile=False|GenerateSeparatePlatedNonPlatedFiles=False|NumberOfDecimals=4|NumberOfUnits=2|OptimizeChangeLocationCommands=True|OriginPosition=Relative|Record=DrillView|Units=Imperial|ZeroesMode=SuppressLeadingZeroes|DocumentPath=C:\Users\Admin\stack\Vader Natuur\T211110 - NEMA 17 Encoder\Hardware\Electrical\T211110V01\Boards\Spacer PCB - JLCPCB - 2 Layer - 1oz 1.6mm.PcbDoc
+OutputType7=Gerber
+OutputName7=Reflector Gerbers
+OutputCategory7=Fabrication
+OutputDocumentPath7=Reflector PCB - JLCPCB - 2 Layer - 1oz 1.6mm.PcbDoc
+OutputVariantName7=
+OutputEnabled7=0
+OutputEnabled7_OutputMedium1=0
+OutputEnabled7_OutputMedium2=0
+OutputEnabled7_OutputMedium3=0
+OutputEnabled7_OutputMedium4=0
+OutputEnabled7_OutputMedium5=1
+OutputEnabled7_OutputMedium6=0
+OutputEnabled7_OutputMedium7=0
+OutputEnabled7_OutputMedium8=0
+OutputEnabled7_OutputMedium9=0
+OutputDefault7=0
+Configuration7_Name1=OutputConfigurationParameter1
+Configuration7_Item1=AddToAllLayerClasses.Set= |AddToAllPlots.Set=SerializeLayerHash.Version~2,ClassName~TPlotLayerStateArray|CentrePlots=False|DrillDrawingSymbol=GraphicsSymbol|DrillDrawingSymbolSize=200000|EmbeddedApertures=True|FilmBorderSize=10000000|FilmXSize=200000000|FilmYSize=160000000|FlashAllFills=False|FlashPadShapes=True|G54OnApertureChange=False|GenerateDRCRulesFile=True|GenerateDRCRulesFile=True|GenerateReliefShapes=True|GerberUnit=Imperial|GerberUnit=Imperial|IncludeUnconnectedMidLayerPads=False|LayerClassesMirror.Set= |LayerClassesPlot.Set= |LeadingAndTrailingZeroesMode=SuppressLeadingZeroes|MaxApertureSize=2500000|MinusApertureTolerance=40|MinusApertureTolerance=40|Mirror.Set=SerializeLayerHash.Version~2,ClassName~TPlotLayerStateArray|MirrorDrillDrawingPlots=False|MirrorDrillGuidePlots=False|NoRegularPolygons=False|NumberOfDecimals=5|NumberOfDecimals=5|OptimizeChangeLocationCommands=True|OptimizeChangeLocationCommands=True|OriginPosition=Relative|Panelize=False|Plot.Set=SerializeLayerHash.Version~2,ClassName~TPlotLayerStateArray,16973830~1,16973834~1,16777217~1,16842751~1,16973835~1,16973831~1,16908308~1|PlotPositivePlaneLayers=False|PlotUsedDrillDrawingLayerPairs=True|PlotUsedDrillGuideLayerPairs=True|PlusApertureTolerance=40|PlusApertureTolerance=40|Record=GerberView|SoftwareArcs=True|Sorted=False|Sorted=False|DocumentPath=C:\Users\Admin\stack\Vader Natuur\T211110 - NEMA 17 Encoder\Hardware\Electrical\T211110V01\Boards\Reflector PCB - JLCPCB - 2 Layer - 1oz 1.6mm.PcbDoc
+OutputType8=NC Drill
+OutputName8=Reflector NC Drill
+OutputCategory8=Fabrication
+OutputDocumentPath8=Reflector PCB - JLCPCB - 2 Layer - 1oz 1.6mm.PcbDoc
+OutputVariantName8=
+OutputEnabled8=0
+OutputEnabled8_OutputMedium1=0
+OutputEnabled8_OutputMedium2=0
+OutputEnabled8_OutputMedium3=0
+OutputEnabled8_OutputMedium4=0
+OutputEnabled8_OutputMedium5=2
+OutputEnabled8_OutputMedium6=0
+OutputEnabled8_OutputMedium7=0
+OutputEnabled8_OutputMedium8=0
+OutputEnabled8_OutputMedium9=0
+OutputDefault8=0
+Configuration8_Name1=OutputConfigurationParameter1
+Configuration8_Item1=BoardEdgeRoutToolDia=787400|GenerateBoardEdgeRout=False|GenerateDrilledSlotsG85=False|GenerateEIADrillFile=False|GenerateSeparatePlatedNonPlatedFiles=False|NumberOfDecimals=4|NumberOfUnits=2|OptimizeChangeLocationCommands=True|OriginPosition=Relative|Record=DrillView|Units=Imperial|ZeroesMode=SuppressLeadingZeroes|DocumentPath=C:\Users\Admin\stack\Vader Natuur\T211110 - NEMA 17 Encoder\Hardware\Electrical\T211110V01\Boards\Reflector PCB - JLCPCB - 2 Layer - 1oz 1.6mm.PcbDoc
+OutputType9=Gerber
+OutputName9=Backplate Gerbers
+OutputCategory9=Fabrication
+OutputDocumentPath9=Backplate PCB - JLCPCB - 2 Layer - 1oz 1.6mm.PcbDoc
+OutputVariantName9=
+OutputEnabled9=0
+OutputEnabled9_OutputMedium1=0
+OutputEnabled9_OutputMedium2=0
+OutputEnabled9_OutputMedium3=0
+OutputEnabled9_OutputMedium4=0
+OutputEnabled9_OutputMedium5=0
+OutputEnabled9_OutputMedium6=1
+OutputEnabled9_OutputMedium7=0
+OutputEnabled9_OutputMedium8=0
+OutputEnabled9_OutputMedium9=0
+OutputDefault9=0
+Configuration9_Name1=OutputConfigurationParameter1
+Configuration9_Item1=AddToAllLayerClasses.Set= |AddToAllPlots.Set=SerializeLayerHash.Version~2,ClassName~TPlotLayerStateArray|CentrePlots=False|DrillDrawingSymbol=GraphicsSymbol|DrillDrawingSymbolSize=200000|EmbeddedApertures=True|FilmBorderSize=10000000|FilmXSize=200000000|FilmYSize=160000000|FlashAllFills=False|FlashPadShapes=True|G54OnApertureChange=False|GenerateDRCRulesFile=True|GenerateDRCRulesFile=True|GenerateReliefShapes=True|GerberUnit=Imperial|GerberUnit=Imperial|IncludeUnconnectedMidLayerPads=False|LayerClassesMirror.Set= |LayerClassesPlot.Set= |LeadingAndTrailingZeroesMode=SuppressLeadingZeroes|MaxApertureSize=2500000|MinusApertureTolerance=40|MinusApertureTolerance=40|Mirror.Set=SerializeLayerHash.Version~2,ClassName~TPlotLayerStateArray|MirrorDrillDrawingPlots=False|MirrorDrillGuidePlots=False|NoRegularPolygons=False|NumberOfDecimals=5|NumberOfDecimals=5|OptimizeChangeLocationCommands=True|OptimizeChangeLocationCommands=True|OriginPosition=Relative|Panelize=False|Plot.Set=SerializeLayerHash.Version~2,ClassName~TPlotLayerStateArray,16973830~1,16973834~1,16777217~1,16842751~1,16973835~1,16973831~1,16908308~1|PlotPositivePlaneLayers=False|PlotUsedDrillDrawingLayerPairs=True|PlotUsedDrillGuideLayerPairs=True|PlusApertureTolerance=40|PlusApertureTolerance=40|Record=GerberView|SoftwareArcs=True|Sorted=False|Sorted=False|DocumentPath=C:\Users\Admin\stack\Vader Natuur\T211110 - NEMA 17 Encoder\Hardware\Electrical\T211110V01\Boards\Backplate PCB - JLCPCB - 2 Layer - 1oz 1.6mm.PcbDoc
+OutputType10=NC Drill
+OutputName10=Backplate NC Drill
+OutputCategory10=Fabrication
+OutputDocumentPath10=Backplate PCB - JLCPCB - 2 Layer - 1oz 1.6mm.PcbDoc
+OutputVariantName10=
+OutputEnabled10=0
+OutputEnabled10_OutputMedium1=0
+OutputEnabled10_OutputMedium2=0
+OutputEnabled10_OutputMedium3=0
+OutputEnabled10_OutputMedium4=0
+OutputEnabled10_OutputMedium5=0
+OutputEnabled10_OutputMedium6=2
+OutputEnabled10_OutputMedium7=0
+OutputEnabled10_OutputMedium8=0
+OutputEnabled10_OutputMedium9=0
+OutputDefault10=0
+Configuration10_Name1=OutputConfigurationParameter1
+Configuration10_Item1=BoardEdgeRoutToolDia=787400|GenerateBoardEdgeRout=False|GenerateDrilledSlotsG85=False|GenerateEIADrillFile=False|GenerateSeparatePlatedNonPlatedFiles=False|NumberOfDecimals=4|NumberOfUnits=2|OptimizeChangeLocationCommands=True|OriginPosition=Relative|Record=DrillView|Units=Imperial|ZeroesMode=SuppressLeadingZeroes|DocumentPath=C:\Users\Admin\stack\Vader Natuur\T211110 - NEMA 17 Encoder\Hardware\Electrical\T211110V01\Boards\Backplate PCB - JLCPCB - 2 Layer - 1oz 1.6mm.PcbDoc
+OutputType11=PCB Print
+OutputName11=Top PCB print
+OutputCategory11=Documentation
+OutputDocumentPath11=Tranceiver PCB - JLCPCB - 2 Layer - 1oz 1.6mm.PcbDoc
+OutputVariantName11=
+OutputEnabled11=0
+OutputEnabled11_OutputMedium1=0
+OutputEnabled11_OutputMedium2=0
+OutputEnabled11_OutputMedium3=0
+OutputEnabled11_OutputMedium4=0
+OutputEnabled11_OutputMedium5=0
+OutputEnabled11_OutputMedium6=0
+OutputEnabled11_OutputMedium7=0
+OutputEnabled11_OutputMedium8=2
+OutputEnabled11_OutputMedium9=0
+OutputDefault11=0
+PageOptions11=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=3.96|XCorrection=1.00|YCorrection=1.00|PrintKind=0|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=0|PaperKind=A4|PaperIndex=9
+Configuration11_Name1=OutputConfigurationParameter1
+Configuration11_Item1=DesignatorDisplayMode=Physical|PrintArea=DesignExtent|PrintAreaLowerLeftCornerX=0|PrintAreaLowerLeftCornerY=0|PrintAreaUpperRightCornerX=0|PrintAreaUpperRightCornerY=0|Record=PcbPrintView|DocumentPath=C:\Users\Admin\stack\Vader Natuur\T211110_ACRE\Hardware\Electrical\T211110V01\Boards\Tranceiver PCB - JLCPCB - 2 Layer - 1oz 1.6mm.PcbDoc
+Configuration11_Name2=OutputConfigurationParameter2
+Configuration11_Item2=IncludeBoardCutouts=False|IncludeBottomLayerComponents=True|IncludeMultiLayerComponents=True|IncludeTopLayerComponents=True|IncludeViewports=True|Index=0|Mirror=False|Name=Multilayer Composite Print|PadNumberFontSize=14|Record=PcbPrintOut|ShowHoles=True|ShowPadNets=False|ShowPadNumbers=False|SubstituteFonts=False|DocumentPath=C:\Users\Admin\stack\Vader Natuur\T211110_ACRE\Hardware\Electrical\T211110V01\Boards\Tranceiver PCB - JLCPCB - 2 Layer - 1oz 1.6mm.PcbDoc
+Configuration11_Name3=OutputConfigurationParameter3
+Configuration11_Item3=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|DrillType=Regular|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=TopOverlay|Polygon=Full|PrintOutIndex=0|Record=PcbPrintLayer|DocumentPath=C:\Users\Admin\stack\Vader Natuur\T211110_ACRE\Hardware\Electrical\T211110V01\Boards\Tranceiver PCB - JLCPCB - 2 Layer - 1oz 1.6mm.PcbDoc
+Configuration11_Name4=OutputConfigurationParameter4
+Configuration11_Item4=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|DrillType=Regular|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=TopLayer|Polygon=Full|PrintOutIndex=0|Record=PcbPrintLayer|DocumentPath=C:\Users\Admin\stack\Vader Natuur\T211110_ACRE\Hardware\Electrical\T211110V01\Boards\Tranceiver PCB - JLCPCB - 2 Layer - 1oz 1.6mm.PcbDoc
+Configuration11_Name5=OutputConfigurationParameter5
+Configuration11_Item5=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|DrillType=Regular|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=Mechanical13|Polygon=Full|PrintOutIndex=0|Record=PcbPrintLayer|DocumentPath=C:\Users\Admin\stack\Vader Natuur\T211110_ACRE\Hardware\Electrical\T211110V01\Boards\Tranceiver PCB - JLCPCB - 2 Layer - 1oz 1.6mm.PcbDoc
+Configuration11_Name6=OutputConfigurationParameter6
+Configuration11_Item6=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|DrillType=Regular|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=Mechanical20|Polygon=Full|PrintOutIndex=0|Record=PcbPrintLayer|DocumentPath=C:\Users\Admin\stack\Vader Natuur\T211110_ACRE\Hardware\Electrical\T211110V01\Boards\Tranceiver PCB - JLCPCB - 2 Layer - 1oz 1.6mm.PcbDoc
+Configuration11_Name7=OutputConfigurationParameter7
+Configuration11_Item7=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|DrillType=Regular|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=MultiLayer|Polygon=Full|PrintOutIndex=0|Record=PcbPrintLayer|DocumentPath=C:\Users\Admin\stack\Vader Natuur\T211110_ACRE\Hardware\Electrical\T211110V01\Boards\Tranceiver PCB - JLCPCB - 2 Layer - 1oz 1.6mm.PcbDoc
+PcbPrintPreferences11=
+OutputType12=PCB Print
+OutputName12=Bot PCB print
+OutputCategory12=Documentation
+OutputDocumentPath12=Tranceiver PCB - JLCPCB - 2 Layer - 1oz 1.6mm.PcbDoc
+OutputVariantName12=
+OutputEnabled12=0
+OutputEnabled12_OutputMedium1=0
+OutputEnabled12_OutputMedium2=0
+OutputEnabled12_OutputMedium3=0
+OutputEnabled12_OutputMedium4=0
+OutputEnabled12_OutputMedium5=0
+OutputEnabled12_OutputMedium6=0
+OutputEnabled12_OutputMedium7=0
+OutputEnabled12_OutputMedium8=3
+OutputEnabled12_OutputMedium9=0
+OutputDefault12=0
+PageOptions12=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=3.96|XCorrection=1.00|YCorrection=1.00|PrintKind=0|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
+Configuration12_Name1=OutputConfigurationParameter1
+Configuration12_Item1=DesignatorDisplayMode=Physical|PrintArea=DesignExtent|PrintAreaLowerLeftCornerX=0|PrintAreaLowerLeftCornerY=0|PrintAreaUpperRightCornerX=0|PrintAreaUpperRightCornerY=0|Record=PcbPrintView|DocumentPath=C:\Users\Admin\stack\Vader Natuur\T211110_ACRE\Hardware\Electrical\T211110V01\Boards\Tranceiver PCB - JLCPCB - 2 Layer - 1oz 1.6mm.PcbDoc
+Configuration12_Name2=OutputConfigurationParameter2
+Configuration12_Item2=IncludeBoardCutouts=False|IncludeBottomLayerComponents=True|IncludeMultiLayerComponents=True|IncludeTopLayerComponents=True|IncludeViewports=True|Index=0|Mirror=False|Name=Multilayer Composite Print|PadNumberFontSize=14|Record=PcbPrintOut|ShowHoles=True|ShowPadNets=False|ShowPadNumbers=False|SubstituteFonts=False|DocumentPath=C:\Users\Admin\stack\Vader Natuur\T211110_ACRE\Hardware\Electrical\T211110V01\Boards\Tranceiver PCB - JLCPCB - 2 Layer - 1oz 1.6mm.PcbDoc
+Configuration12_Name3=OutputConfigurationParameter3
+Configuration12_Item3=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|DrillType=Regular|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=MultiLayer|Polygon=Full|PrintOutIndex=0|Record=PcbPrintLayer|DocumentPath=C:\Users\Admin\stack\Vader Natuur\T211110_ACRE\Hardware\Electrical\T211110V01\Boards\Tranceiver PCB - JLCPCB - 2 Layer - 1oz 1.6mm.PcbDoc
+Configuration12_Name4=OutputConfigurationParameter4
+Configuration12_Item4=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|DrillType=Regular|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=Mechanical20|Polygon=Full|PrintOutIndex=0|Record=PcbPrintLayer|DocumentPath=C:\Users\Admin\stack\Vader Natuur\T211110_ACRE\Hardware\Electrical\T211110V01\Boards\Tranceiver PCB - JLCPCB - 2 Layer - 1oz 1.6mm.PcbDoc
+Configuration12_Name5=OutputConfigurationParameter5
+Configuration12_Item5=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|DrillType=Regular|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=BottomLayer|Polygon=Full|PrintOutIndex=0|Record=PcbPrintLayer|DocumentPath=C:\Users\Admin\stack\Vader Natuur\T211110_ACRE\Hardware\Electrical\T211110V01\Boards\Tranceiver PCB - JLCPCB - 2 Layer - 1oz 1.6mm.PcbDoc
+Configuration12_Name6=OutputConfigurationParameter6
+Configuration12_Item6=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|DrillType=Regular|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=BottomOverlay|Polygon=Full|PrintOutIndex=0|Record=PcbPrintLayer|DocumentPath=C:\Users\Admin\stack\Vader Natuur\T211110_ACRE\Hardware\Electrical\T211110V01\Boards\Tranceiver PCB - JLCPCB - 2 Layer - 1oz 1.6mm.PcbDoc
+Configuration12_Name7=OutputConfigurationParameter7
+Configuration12_Item7=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|DrillType=Regular|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=Mechanical14|Polygon=Full|PrintOutIndex=0|Record=PcbPrintLayer|DocumentPath=C:\Users\Admin\stack\Vader Natuur\T211110_ACRE\Hardware\Electrical\T211110V01\Boards\Tranceiver PCB - JLCPCB - 2 Layer - 1oz 1.6mm.PcbDoc
+PcbPrintPreferences12=
+OutputType13=PCB Print
+OutputName13=Top PCB print reflector
+OutputCategory13=Documentation
+OutputDocumentPath13=Reflector PCB - JLCPCB - 2 Layer - 1oz 1.6mm.PcbDoc
+OutputVariantName13=
+OutputEnabled13=0
+OutputEnabled13_OutputMedium1=0
+OutputEnabled13_OutputMedium2=0
+OutputEnabled13_OutputMedium3=0
+OutputEnabled13_OutputMedium4=0
+OutputEnabled13_OutputMedium5=0
+OutputEnabled13_OutputMedium6=0
+OutputEnabled13_OutputMedium7=0
+OutputEnabled13_OutputMedium8=4
+OutputEnabled13_OutputMedium9=0
+OutputDefault13=0
+PageOptions13=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=3.96|XCorrection=1.00|YCorrection=1.00|PrintKind=0|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
+Configuration13_Name1=OutputConfigurationParameter1
+Configuration13_Item1=DesignatorDisplayMode=Physical|PrintArea=DesignExtent|PrintAreaLowerLeftCornerX=0|PrintAreaLowerLeftCornerY=0|PrintAreaUpperRightCornerX=0|PrintAreaUpperRightCornerY=0|Record=PcbPrintView|DocumentPath=C:\Users\Admin\stack\Vader Natuur\T211110_ACRE\Hardware\Electrical\T211110V01\Boards\Tranceiver PCB - JLCPCB - 2 Layer - 1oz 1.6mm.PcbDoc
+Configuration13_Name2=OutputConfigurationParameter2
+Configuration13_Item2=IncludeBoardCutouts=False|IncludeBottomLayerComponents=True|IncludeMultiLayerComponents=True|IncludeTopLayerComponents=True|IncludeViewports=True|Index=0|Mirror=False|Name=Multilayer Composite Print|PadNumberFontSize=14|Record=PcbPrintOut|ShowHoles=True|ShowPadNets=False|ShowPadNumbers=False|SubstituteFonts=False|DocumentPath=C:\Users\Admin\stack\Vader Natuur\T211110_ACRE\Hardware\Electrical\T211110V01\Boards\Tranceiver PCB - JLCPCB - 2 Layer - 1oz 1.6mm.PcbDoc
+Configuration13_Name3=OutputConfigurationParameter3
+Configuration13_Item3=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|DrillType=Regular|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=TopOverlay|Polygon=Full|PrintOutIndex=0|Record=PcbPrintLayer|DocumentPath=C:\Users\Admin\stack\Vader Natuur\T211110_ACRE\Hardware\Electrical\T211110V01\Boards\Tranceiver PCB - JLCPCB - 2 Layer - 1oz 1.6mm.PcbDoc
+Configuration13_Name4=OutputConfigurationParameter4
+Configuration13_Item4=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|DrillType=Regular|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=TopLayer|Polygon=Full|PrintOutIndex=0|Record=PcbPrintLayer|DocumentPath=C:\Users\Admin\stack\Vader Natuur\T211110_ACRE\Hardware\Electrical\T211110V01\Boards\Tranceiver PCB - JLCPCB - 2 Layer - 1oz 1.6mm.PcbDoc
+Configuration13_Name5=OutputConfigurationParameter5
+Configuration13_Item5=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|DrillType=Regular|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=MultiLayer|Polygon=Full|PrintOutIndex=0|Record=PcbPrintLayer|DocumentPath=C:\Users\Admin\stack\Vader Natuur\T211110_ACRE\Hardware\Electrical\T211110V01\Boards\Tranceiver PCB - JLCPCB - 2 Layer - 1oz 1.6mm.PcbDoc
+Configuration13_Name6=OutputConfigurationParameter6
+Configuration13_Item6=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|DrillType=Regular|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=Mechanical13|Polygon=Full|PrintOutIndex=0|Record=PcbPrintLayer|DocumentPath=C:\Users\Admin\stack\Vader Natuur\T211110_ACRE\Hardware\Electrical\T211110V01\Boards\Tranceiver PCB - JLCPCB - 2 Layer - 1oz 1.6mm.PcbDoc
+Configuration13_Name7=OutputConfigurationParameter7
+Configuration13_Item7=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|DrillType=Regular|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=Mechanical20|Polygon=Full|PrintOutIndex=0|Record=PcbPrintLayer|DocumentPath=C:\Users\Admin\stack\Vader Natuur\T211110_ACRE\Hardware\Electrical\T211110V01\Boards\Tranceiver PCB - JLCPCB - 2 Layer - 1oz 1.6mm.PcbDoc
+PcbPrintPreferences13=
+OutputType14=PCB Print
+OutputName14=Bot PCB print reflector
+OutputCategory14=Documentation
+OutputDocumentPath14=Reflector PCB - JLCPCB - 2 Layer - 1oz 1.6mm.PcbDoc
+OutputVariantName14=
+OutputEnabled14=0
+OutputEnabled14_OutputMedium1=0
+OutputEnabled14_OutputMedium2=0
+OutputEnabled14_OutputMedium3=0
+OutputEnabled14_OutputMedium4=0
+OutputEnabled14_OutputMedium5=0
+OutputEnabled14_OutputMedium6=0
+OutputEnabled14_OutputMedium7=0
+OutputEnabled14_OutputMedium8=5
+OutputEnabled14_OutputMedium9=0
+OutputDefault14=0
+PageOptions14=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=3.96|XCorrection=1.00|YCorrection=1.00|PrintKind=0|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
+Configuration14_Name1=OutputConfigurationParameter1
+Configuration14_Item1=DesignatorDisplayMode=Physical|PrintArea=DesignExtent|PrintAreaLowerLeftCornerX=0|PrintAreaLowerLeftCornerY=0|PrintAreaUpperRightCornerX=0|PrintAreaUpperRightCornerY=0|Record=PcbPrintView|DocumentPath=C:\Users\Admin\stack\Vader Natuur\T211110_ACRE\Hardware\Electrical\T211110V01\Boards\Tranceiver PCB - JLCPCB - 2 Layer - 1oz 1.6mm.PcbDoc
+Configuration14_Name2=OutputConfigurationParameter2
+Configuration14_Item2=IncludeBoardCutouts=False|IncludeBottomLayerComponents=True|IncludeMultiLayerComponents=True|IncludeTopLayerComponents=True|IncludeViewports=True|Index=0|Mirror=False|Name=Multilayer Composite Print|PadNumberFontSize=14|Record=PcbPrintOut|ShowHoles=True|ShowPadNets=False|ShowPadNumbers=False|SubstituteFonts=False|DocumentPath=C:\Users\Admin\stack\Vader Natuur\T211110_ACRE\Hardware\Electrical\T211110V01\Boards\Tranceiver PCB - JLCPCB - 2 Layer - 1oz 1.6mm.PcbDoc
+Configuration14_Name3=OutputConfigurationParameter3
+Configuration14_Item3=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|DrillType=Regular|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=MultiLayer|Polygon=Full|PrintOutIndex=0|Record=PcbPrintLayer|DocumentPath=C:\Users\Admin\stack\Vader Natuur\T211110_ACRE\Hardware\Electrical\T211110V01\Boards\Tranceiver PCB - JLCPCB - 2 Layer - 1oz 1.6mm.PcbDoc
+Configuration14_Name4=OutputConfigurationParameter4
+Configuration14_Item4=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|DrillType=Regular|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=Mechanical20|Polygon=Full|PrintOutIndex=0|Record=PcbPrintLayer|DocumentPath=C:\Users\Admin\stack\Vader Natuur\T211110_ACRE\Hardware\Electrical\T211110V01\Boards\Tranceiver PCB - JLCPCB - 2 Layer - 1oz 1.6mm.PcbDoc
+Configuration14_Name5=OutputConfigurationParameter5
+Configuration14_Item5=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|DrillType=Regular|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=BottomLayer|Polygon=Full|PrintOutIndex=0|Record=PcbPrintLayer|DocumentPath=C:\Users\Admin\stack\Vader Natuur\T211110_ACRE\Hardware\Electrical\T211110V01\Boards\Tranceiver PCB - JLCPCB - 2 Layer - 1oz 1.6mm.PcbDoc
+Configuration14_Name6=OutputConfigurationParameter6
+Configuration14_Item6=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|DrillType=Regular|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=BottomOverlay|Polygon=Full|PrintOutIndex=0|Record=PcbPrintLayer|DocumentPath=C:\Users\Admin\stack\Vader Natuur\T211110_ACRE\Hardware\Electrical\T211110V01\Boards\Tranceiver PCB - JLCPCB - 2 Layer - 1oz 1.6mm.PcbDoc
+Configuration14_Name7=OutputConfigurationParameter7
+Configuration14_Item7=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|DrillType=Regular|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=Mechanical14|Polygon=Full|PrintOutIndex=0|Record=PcbPrintLayer|DocumentPath=C:\Users\Admin\stack\Vader Natuur\T211110_ACRE\Hardware\Electrical\T211110V01\Boards\Tranceiver PCB - JLCPCB - 2 Layer - 1oz 1.6mm.PcbDoc
+PcbPrintPreferences14=
+OutputType15=PCB 3D Print
+OutputName15=Top PCB 3D
+OutputCategory15=Documentation
+OutputDocumentPath15=Tranceiver PCB - JLCPCB - 2 Layer - 1oz 1.6mm.PcbDoc
+OutputVariantName15=
+OutputEnabled15=0
+OutputEnabled15_OutputMedium1=0
+OutputEnabled15_OutputMedium2=0
+OutputEnabled15_OutputMedium3=0
+OutputEnabled15_OutputMedium4=0
+OutputEnabled15_OutputMedium5=0
+OutputEnabled15_OutputMedium6=0
+OutputEnabled15_OutputMedium7=0
+OutputEnabled15_OutputMedium8=6
+OutputEnabled15_OutputMedium9=0
+OutputDefault15=0
+PageOptions15=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=4.04|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
+Configuration15_Name1=OutputConfigurationParameter1
+Configuration15_Item1=Record=Pcb3DPrintView|ResX=600|ResY=600|ViewX=16535435|ViewY=20472440|LookAtX=174015744|LookAtY=174015744|LookAtZ=0|UpX=0|UpY=1|UpZ=0|FOV=0|QuatX=0|QuatY=0|QuatZ=0|QuatW=1|Zoom=4.46453866759409E-5|UnitsPercent=True|UnitsDPI=True|LockResAspect=True|ViewConfigType=.config_3d|CustomCamera=False|ViewFromTop=True|ScreenWidth=0|ScreenHeight=0|ImageOutputType=1|ViewConfig= |DocumentPath=C:\Users\Admin\stack\Vader Natuur\T211110_ACRE\Hardware\Electrical\T211110V01\Boards\Tranceiver PCB - JLCPCB - 2 Layer - 1oz 1.6mm.PcbDoc
+OutputType16=PCB 3D Print
+OutputName16=Bot PCB 3D
+OutputCategory16=Documentation
+OutputDocumentPath16=Tranceiver PCB - JLCPCB - 2 Layer - 1oz 1.6mm.PcbDoc
+OutputVariantName16=
+OutputEnabled16=0
+OutputEnabled16_OutputMedium1=0
+OutputEnabled16_OutputMedium2=0
+OutputEnabled16_OutputMedium3=0
+OutputEnabled16_OutputMedium4=0
+OutputEnabled16_OutputMedium5=0
+OutputEnabled16_OutputMedium6=0
+OutputEnabled16_OutputMedium7=0
+OutputEnabled16_OutputMedium8=7
+OutputEnabled16_OutputMedium9=0
+OutputDefault16=0
+PageOptions16=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=4.04|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
+Configuration16_Name1=OutputConfigurationParameter1
+Configuration16_Item1=Record=Pcb3DPrintView|ResX=600|ResY=600|ViewX=16535435|ViewY=20472440|LookAtX=174015744|LookAtY=174015744|LookAtZ=0|UpX=0|UpY=1|UpZ=0|FOV=0|QuatX=0|QuatY=0|QuatZ=0|QuatW=1|Zoom=4.46453866759409E-5|UnitsPercent=True|UnitsDPI=True|LockResAspect=True|ViewConfigType=.config_3d|CustomCamera=False|ViewFromTop=False|ScreenWidth=0|ScreenHeight=0|ImageOutputType=1|ViewConfig= |DocumentPath=C:\Users\Admin\stack\Vader Natuur\T211110_ACRE\Hardware\Electrical\T211110V01\Boards\Tranceiver PCB - JLCPCB - 2 Layer - 1oz 1.6mm.PcbDoc
+OutputType17=PCB 3D Print
+OutputName17=Top PCB 3D
+OutputCategory17=Documentation
+OutputDocumentPath17=Reflector PCB - JLCPCB - 2 Layer - 1oz 1.6mm.PcbDoc
+OutputVariantName17=
+OutputEnabled17=0
+OutputEnabled17_OutputMedium1=0
+OutputEnabled17_OutputMedium2=0
+OutputEnabled17_OutputMedium3=0
+OutputEnabled17_OutputMedium4=0
+OutputEnabled17_OutputMedium5=0
+OutputEnabled17_OutputMedium6=0
+OutputEnabled17_OutputMedium7=0
+OutputEnabled17_OutputMedium8=8
+OutputEnabled17_OutputMedium9=0
+OutputDefault17=0
+PageOptions17=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=5.83|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
+Configuration17_Name1=OutputConfigurationParameter1
+Configuration17_Item1=Record=Pcb3DPrintView|ResX=600|ResY=600|ViewX=16535435|ViewY=20472440|LookAtX=174015744|LookAtY=174015744|LookAtZ=0|UpX=0|UpY=1|UpZ=0|FOV=0|QuatX=0|QuatY=0|QuatZ=0|QuatW=1|Zoom=4.46453866759409E-5|UnitsPercent=True|UnitsDPI=True|LockResAspect=True|ViewConfigType=.config_3d|CustomCamera=False|ViewFromTop=True|ScreenWidth=0|ScreenHeight=0|ImageOutputType=1|ViewConfig= |DocumentPath=C:\Users\Admin\stack\Vader Natuur\T211110_ACRE\Hardware\Electrical\T211110V01\Boards\Tranceiver PCB - JLCPCB - 2 Layer - 1oz 1.6mm.PcbDoc
+OutputType18=PCB 3D Print
+OutputName18=Bot PCB 3D
+OutputCategory18=Documentation
+OutputDocumentPath18=Reflector PCB - JLCPCB - 2 Layer - 1oz 1.6mm.PcbDoc
+OutputVariantName18=
+OutputEnabled18=0
+OutputEnabled18_OutputMedium1=0
+OutputEnabled18_OutputMedium2=0
+OutputEnabled18_OutputMedium3=0
+OutputEnabled18_OutputMedium4=0
+OutputEnabled18_OutputMedium5=0
+OutputEnabled18_OutputMedium6=0
+OutputEnabled18_OutputMedium7=0
+OutputEnabled18_OutputMedium8=9
+OutputEnabled18_OutputMedium9=0
+OutputDefault18=0
+PageOptions18=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=5.83|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
+Configuration18_Name1=OutputConfigurationParameter1
+Configuration18_Item1=Record=Pcb3DPrintView|ResX=600|ResY=600|ViewX=16535435|ViewY=20472440|LookAtX=174015744|LookAtY=174015744|LookAtZ=0|UpX=0|UpY=1|UpZ=0|FOV=0|QuatX=0|QuatY=0|QuatZ=0|QuatW=1|Zoom=4.46453866759409E-5|UnitsPercent=True|UnitsDPI=True|LockResAspect=True|ViewConfigType=.config_3d|CustomCamera=False|ViewFromTop=False|ScreenWidth=0|ScreenHeight=0|ImageOutputType=1|ViewConfig= |DocumentPath=C:\Users\Admin\stack\Vader Natuur\T211110_ACRE\Hardware\Electrical\T211110V01\Boards\Tranceiver PCB - JLCPCB - 2 Layer - 1oz 1.6mm.PcbDoc
+OutputType19=ExportSTEP
+OutputName19=Export STEP
+OutputCategory19=Export
+OutputDocumentPath19=Tranceiver PCB - JLCPCB - 2 Layer - 1oz 1.6mm.PcbDoc
+OutputVariantName19=
+OutputEnabled19=1
+OutputEnabled19_OutputMedium1=0
+OutputEnabled19_OutputMedium2=0
+OutputEnabled19_OutputMedium3=0
+OutputEnabled19_OutputMedium4=0
+OutputEnabled19_OutputMedium5=0
+OutputEnabled19_OutputMedium6=0
+OutputEnabled19_OutputMedium7=0
+OutputEnabled19_OutputMedium8=0
+OutputEnabled19_OutputMedium9=1
+OutputDefault19=0
+Configuration19_Name1=OutputConfigurationParameter1
+Configuration19_Item1=Record=ExportSTEPView|ExportComponentOptions=0|ExportModelsOption=2|ExportHolesOption=0|CanSelectPrimitives=False|IncludeMechanicalPadHoles=False|IncludeElectricalPadHoles=False|IncludeFreePadHoles=False|ExportFoldedBoard=True|ExportFoldedBoardRate=0|ComponentSuffixType=0|ComponentSuffix= |ExportCopperOption=0|ExportCopperLayer=1|ExportPadAndViaBarrelsOnly=False|IgnoreBoardCopperLayerColors=False|ExportAsSinglePart=False|IncludeCoverLayer=True|SkipFreeBodies=False|SkipHidden=False|DocumentPath=C:\Users\Admin\stack\Vader Natuur\T211110_ACRE\Hardware\Electrical\T211110V01\Boards\Tranceiver PCB - JLCPCB - 2 Layer - 1oz 1.6mm.PcbDoc
+OutputType20=ExportSTEP
+OutputName20=Export STEP
+OutputCategory20=Export
+OutputDocumentPath20=Reflector PCB - JLCPCB - 2 Layer - 1oz 1.6mm.PcbDoc
+OutputVariantName20=
+OutputEnabled20=1
+OutputEnabled20_OutputMedium1=0
+OutputEnabled20_OutputMedium2=0
+OutputEnabled20_OutputMedium3=0
+OutputEnabled20_OutputMedium4=0
+OutputEnabled20_OutputMedium5=0
+OutputEnabled20_OutputMedium6=0
+OutputEnabled20_OutputMedium7=0
+OutputEnabled20_OutputMedium8=0
+OutputEnabled20_OutputMedium9=2
+OutputDefault20=0
+Configuration20_Name1=OutputConfigurationParameter1
+Configuration20_Item1=Record=ExportSTEPView|ExportComponentOptions=0|ExportModelsOption=2|ExportHolesOption=0|CanSelectPrimitives=False|IncludeMechanicalPadHoles=False|IncludeElectricalPadHoles=False|IncludeFreePadHoles=False|ExportFoldedBoard=True|ExportFoldedBoardRate=100|ComponentSuffixType=0|ComponentSuffix= |ExportCopperOption=0|ExportCopperLayer=1|ExportPadAndViaBarrelsOnly=False|IgnoreBoardCopperLayerColors=False|ExportAsSinglePart=False|IncludeCoverLayer=True|SkipFreeBodies=False|SkipHidden=False|DocumentPath=C:\Users\Admin\stack\Vader Natuur\T211110_ACRE\Hardware\Electrical\T211110V01\Boards\Reflector PCB - JLCPCB - 2 Layer - 1oz 1.6mm.PcbDoc
+
+[PublishSettings]
+OutputFilePath2=.\
+ReleaseManaged2=0
+OutputBasePath2=.
+OutputPathMedia2=
+OutputPathMediaValue2=
+OutputPathOutputer2=[Output Type]
+OutputPathOutputerPrefix2=
+OutputPathOutputerValue2=
+OutputFileName2=
+OutputFileNameMulti2=
+UseOutputNameForMulti2=1
+OutputFileNameSpecial2=
+OpenOutput2=1
+PromptOverwrite2=1
+PublishMethod2=2
+ZoomLevel2=50
+FitSCHPrintSizeToDoc2=1
+FitPCBPrintSizeToDoc2=1
+GenerateNetsInfo2=1
+MarkPins2=1
+MarkNetLabels2=1
+MarkPortsId2=1
+WebOutputMediumType2=FS
+OutputDirectory2=Output\
+OutputFilePath3=C:\Users\Admin\stack\Vader Natuur\T211110 - NEMA 17 Encoder\Hardware\Electrical\T211110V01\Output\Tranceiver Gerbers - T211110V01 2021-11-16\
+ReleaseManaged3=0
+OutputBasePath3=Output\
+OutputPathMedia3=='Tranceiver Gerbers - ' + ProjectNumber + Revision + ' ' + CurrentDate
+OutputPathMediaValue3=='Tranceiver Gerbers - ' + ProjectNumber + Revision + ' ' + CurrentDate
+OutputPathOutputer3=
+OutputPathOutputerPrefix3=
+OutputPathOutputerValue3=='JLCPCB Gerbers and Drill 10UP - ' + ProjectNumber + Revision + ' ' + CurrentDate
+OutputFileName3=
+OutputFileNameMulti3=='Gerbers and Drill - ' + ProjectNumber + ' ' + CurrentDate
+UseOutputNameForMulti3=1
+OutputFileNameSpecial3=
+OpenOutput3=1
+OutputFilePath4=C:\Users\Admin\stack\Vader Natuur\T211110 - NEMA 17 Encoder\Hardware\Electrical\T211110V01\Output\Spacer Gerbers - T211110V01 2021-11-16\
+ReleaseManaged4=0
+OutputBasePath4=Output\
+OutputPathMedia4=='Spacer Gerbers - ' + ProjectNumber + Revision + ' ' + CurrentDate
+OutputPathMediaValue4=='Spacer Gerbers - ' + ProjectNumber + Revision + ' ' + CurrentDate
+OutputPathOutputer4=
+OutputPathOutputerPrefix4=
+OutputPathOutputerValue4=='JLCPCB Gerbers and Drill 10UP - ' + ProjectNumber + Revision + ' ' + CurrentDate
+OutputFileName4=
+OutputFileNameMulti4=='Gerbers and Drill - ' + ProjectNumber + ' ' + CurrentDate
+UseOutputNameForMulti4=1
+OutputFileNameSpecial4=
+OpenOutput4=1
+OutputFilePath5=C:\Users\Admin\stack\Vader Natuur\T211110 - NEMA 17 Encoder\Hardware\Electrical\T211110V01\Output\Reflector Gerbers - T211110V01 2021-11-16\
+ReleaseManaged5=0
+OutputBasePath5=Output\
+OutputPathMedia5=='Reflector Gerbers - ' + ProjectNumber + Revision + ' ' + CurrentDate
+OutputPathMediaValue5=='Reflector Gerbers - ' + ProjectNumber + Revision + ' ' + CurrentDate
+OutputPathOutputer5=
+OutputPathOutputerPrefix5=
+OutputPathOutputerValue5=='JLCPCB Gerbers and Drill 10UP - ' + ProjectNumber + Revision + ' ' + CurrentDate
+OutputFileName5=
+OutputFileNameMulti5=='Gerbers and Drill - ' + ProjectNumber + ' ' + CurrentDate
+UseOutputNameForMulti5=1
+OutputFileNameSpecial5=
+OpenOutput5=1
+OutputFilePath6=C:\Users\Admin\stack\Vader Natuur\T211110 - NEMA 17 Encoder\Hardware\Electrical\T211110V01\Output\Backplate Gerbers - T211110V01 2021-11-16\
+ReleaseManaged6=0
+OutputBasePath6=Output\
+OutputPathMedia6=='Backplate Gerbers - ' + ProjectNumber + Revision + ' ' + CurrentDate
+OutputPathMediaValue6=='Backplate Gerbers - ' + ProjectNumber + Revision + ' ' + CurrentDate
+OutputPathOutputer6=
+OutputPathOutputerPrefix6=
+OutputPathOutputerValue6=='JLCPCB Gerbers and Drill 10UP - ' + ProjectNumber + Revision + ' ' + CurrentDate
+OutputFileName6=
+OutputFileNameMulti6=='Gerbers and Drill - ' + ProjectNumber + ' ' + CurrentDate
+UseOutputNameForMulti6=1
+OutputFileNameSpecial6=
+OpenOutput6=1
+OutputFilePath7=C:\Users\Admin\stack\Vader Natuur\T211110 - NEMA 17 Encoder\Hardware\Electrical\T211110V01\Output\Documentation - T211110V01 2021-11-16\
+ReleaseManaged7=0
+OutputBasePath7=Output\
+OutputPathMedia7=='Documentation - ' + ProjectNumber + Revision + ' ' + CurrentDate
+OutputPathMediaValue7=='Documentation - ' + ProjectNumber + Revision + ' ' + CurrentDate
+OutputPathOutputer7=
+OutputPathOutputerPrefix7=
+OutputPathOutputerValue7=
+OutputFileName7=
+OutputFileNameMulti7=='BOM - ' + ProjectNumber  + Revision + ' ' + CurrentDate + '  ' + CurrentTime
+UseOutputNameForMulti7=0
+OutputFileNameSpecial7=
+OpenOutput7=1
+OutputFilePath8=C:\Users\Admin\stack\Vader Natuur\T211110_ACRE\Hardware\Electrical\T211110V01\Output\Documentation - T211110V01 2021-12-17\Schematic - T211110V01 2021-12-17  22-50.PDF
+ReleaseManaged8=0
+OutputBasePath8=Output\
+OutputPathMedia8=='Documentation - ' + ProjectNumber + Revision + ' ' + CurrentDate
+OutputPathMediaValue8=='Documentation - ' + ProjectNumber + Revision + ' ' + CurrentDate
+OutputPathOutputer8=[Output Type]
+OutputPathOutputerPrefix8=
+OutputPathOutputerValue8=
+OutputFileName8=T211110V01 - OutputJob.PDF
+OutputFileNameMulti8=
+UseOutputNameForMulti8=0
+OutputFileNameSpecial8=='Schematic - ' + ProjectNumber  + Revision + ' ' + CurrentDate + '  ' + CurrentTime
+OpenOutput8=1
+PromptOverwrite8=1
+PublishMethod8=0
+ZoomLevel8=50
+FitSCHPrintSizeToDoc8=1
+FitPCBPrintSizeToDoc8=1
+GenerateNetsInfo8=1
+MarkPins8=1
+MarkNetLabels8=1
+MarkPortsId8=1
+GenerateTOC8=1
+ShowComponentParameters8=1
+GlobalBookmarks8=1
+PDFACompliance8=Disabled
+PDFVersion8=Default
+OutputFilePath9=C:\Users\Admin\stack\Vader Natuur\T211110_ACRE\Hardware\Electrical\T211110V01\Output\3D Models - T211110V01 2021-12-17\
+ReleaseManaged9=0
+OutputBasePath9=Output\
+OutputPathMedia9=='3D Models - ' + ProjectNumber + Revision + ' ' + CurrentDate
+OutputPathMediaValue9=='3D Models - ' + ProjectNumber + Revision + ' ' + CurrentDate
+OutputPathOutputer9=
+OutputPathOutputerPrefix9=
+OutputPathOutputerValue9=='JLCPCB Gerbers and Drill 10UP - ' + ProjectNumber + Revision + ' ' + CurrentDate
+OutputFileName9=
+OutputFileNameMulti9=='Gerbers and Drill - ' + ProjectNumber + ' ' + CurrentDate
+UseOutputNameForMulti9=1
+OutputFileNameSpecial9=
+OpenOutput9=1
+
+[GeneratedFilesSettings]
+RelativeOutputPath2=.\
+OpenOutputs2=1
+RelativeOutputPath3=C:\Users\Admin\stack\Vader Natuur\T211110 - NEMA 17 Encoder\Hardware\Electrical\T211110V01\Output\Tranceiver Gerbers - T211110V01 2021-11-16\
+OpenOutputs3=1
+AddToProject3=0
+TimestampFolder3=0
+UseOutputName3=0
+OpenODBOutput3=0
+OpenGerberOutput3=1
+OpenNCDrillOutput3=1
+OpenIPCOutput3=0
+EnableReload3=0
+RelativeOutputPath4=C:\Users\Admin\stack\Vader Natuur\T211110 - NEMA 17 Encoder\Hardware\Electrical\T211110V01\Output\Spacer Gerbers - T211110V01 2021-11-16\
+OpenOutputs4=1
+AddToProject4=0
+TimestampFolder4=0
+UseOutputName4=0
+OpenODBOutput4=0
+OpenGerberOutput4=1
+OpenNCDrillOutput4=1
+OpenIPCOutput4=0
+EnableReload4=0
+RelativeOutputPath5=C:\Users\Admin\stack\Vader Natuur\T211110 - NEMA 17 Encoder\Hardware\Electrical\T211110V01\Output\Reflector Gerbers - T211110V01 2021-11-16\
+OpenOutputs5=1
+AddToProject5=0
+TimestampFolder5=0
+UseOutputName5=0
+OpenODBOutput5=0
+OpenGerberOutput5=1
+OpenNCDrillOutput5=1
+OpenIPCOutput5=0
+EnableReload5=0
+RelativeOutputPath6=C:\Users\Admin\stack\Vader Natuur\T211110 - NEMA 17 Encoder\Hardware\Electrical\T211110V01\Output\Backplate Gerbers - T211110V01 2021-11-16\
+OpenOutputs6=1
+AddToProject6=0
+TimestampFolder6=0
+UseOutputName6=0
+OpenODBOutput6=0
+OpenGerberOutput6=1
+OpenNCDrillOutput6=1
+OpenIPCOutput6=0
+EnableReload6=0
+RelativeOutputPath7=C:\Users\Admin\stack\Vader Natuur\T211110 - NEMA 17 Encoder\Hardware\Electrical\T211110V01\Output\Documentation - T211110V01 2021-11-16\
+OpenOutputs7=1
+AddToProject7=0
+TimestampFolder7=0
+UseOutputName7=0
+OpenODBOutput7=0
+OpenGerberOutput7=0
+OpenNCDrillOutput7=0
+OpenIPCOutput7=0
+EnableReload7=0
+RelativeOutputPath8=C:\Users\Admin\stack\Vader Natuur\T211110_ACRE\Hardware\Electrical\T211110V01\Output\Documentation - T211110V01 2021-12-17\Schematic - T211110V01 2021-12-17  22-50.PDF
+OpenOutputs8=1
+RelativeOutputPath9=C:\Users\Admin\stack\Vader Natuur\T211110_ACRE\Hardware\Electrical\T211110V01\Output\3D Models - T211110V01 2021-12-17\
+OpenOutputs9=1
+AddToProject9=0
+TimestampFolder9=0
+UseOutputName9=0
+OpenODBOutput9=0
+OpenGerberOutput9=1
+OpenNCDrillOutput9=1
+OpenIPCOutput9=0
+EnableReload9=0
+

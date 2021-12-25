@@ -1,0 +1,2 @@
+Record=TopLevelDocument|FileName=main.SchDoc|SheetNumber=1
+Record=SheetSymbol|SourceDocument=main.SchDoc|Designator=U_USB2Serial|SchDesignator=U_USB2Serial|FileName=USB2Serial.SchDoc|SheetNumber=2|SymbolType=Normal|RawFileName=USB2Serial.SchDoc|DesignItemId= |SourceLibraryName= |ObjectKind=Sheet Symbol|RevisionGUID= |ItemGUID= |VaultGUID= 

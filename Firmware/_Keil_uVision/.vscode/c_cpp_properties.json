@@ -845,17 +845,19 @@
             "includePath": [
                 "c:\\Users\\Admin\\Documents\\GitHub\\ACRE\\Firmware\\Include",
                 "c:\\Users\\Admin\\Documents\\GitHub\\ACRE\\Firmware\\Libraries\\SSD1306_OLED_Display\\include",
-                "c:\\Users\\Admin\\Documents\\GitHub\\ACRE\\Firmware\\_Keil_uVision\\RTE\\_GD32F103CB",
-                "c:\\Users\\Admin\\Documents\\AppData\\Local\\Arm\\Packs\\ARM\\CMSIS\\5.8.0\\CMSIS\\Core\\Include",
-                "c:\\Users\\Admin\\Documents\\AppData\\Local\\Arm\\Packs\\GigaDevice\\GD32F10x_DFP\\2.0.2\\Device\\Include",
-                "c:\\Users\\Admin\\Documents\\AppData\\Local\\Arm\\Packs\\GigaDevice\\GD32F10x_DFP\\2.0.2\\Device\\Firmware\\Peripherals\\inc",
+                "c:\\Users\\Admin\\Documents\\GitHub\\ACRE\\Firmware\\Libraries\\cli\\include",
+                "c:\\Users\\Admin\\Documents\\GitHub\\ACRE\\Firmware\\_Keil_uVision\\RTE\\_T211110V01",
+                "c:\\Users\\Admin\\AppData\\Local\\Arm\\Packs\\ARM\\CMSIS\\5.8.0\\CMSIS\\Core\\Include",
+                "c:\\Users\\Admin\\AppData\\Local\\Arm\\Packs\\GigaDevice\\GD32F10x_DFP\\2.0.2\\Device\\Include",
+                "c:\\Users\\Admin\\AppData\\Local\\Arm\\Packs\\GigaDevice\\GD32F10x_DFP\\2.0.2\\Device\\Firmware\\Peripherals\\inc",
                 "C:\\Keil_v5\\ARM\\ARMCLANG\\include",
                 "C:\\Keil_v5\\ARM\\ARMCLANG\\include\\arm_linux",
                 "C:\\Keil_v5\\ARM\\ARMCLANG\\include\\arm_linux_compat",
                 "C:\\Keil_v5\\ARM\\ARMCLANG\\include\\libcxx",
                 "c:\\Users\\Admin\\Documents\\GitHub\\ACRE\\Firmware\\Source",
                 "c:\\Users\\Admin\\Documents\\GitHub\\ACRE\\Firmware\\Startup",
-                "c:\\Users\\Admin\\Documents\\GitHub\\ACRE\\Firmware\\Libraries\\SSD1306_OLED_Display\\source"
+                "c:\\Users\\Admin\\Documents\\GitHub\\ACRE\\Firmware\\Libraries\\SSD1306_OLED_Display\\source",
+                "c:\\Users\\Admin\\Documents\\GitHub\\ACRE\\Firmware\\Libraries\\cli\\source"
             ],
             "defines": [
                 "USE_STDPERIPH_DRIVER",
