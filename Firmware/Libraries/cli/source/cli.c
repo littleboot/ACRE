@@ -6,13 +6,14 @@
  * @date 05-11-2019
  *
  */
-
+/* ========================== include files =========================== */
 #include <string.h>
 #include <stdio.h>
 #include <stdlib.h>
 #include <stdint.h>
 #include "cli.h"
 
+/* =========================== data types ================+++========== */
 typedef struct cmd
 {
     const char *name; //Command name
@@ -21,10 +22,12 @@ typedef struct cmd
     void *callback;
 } cmd;
 
+/* ======================== global variables ========================== */
 static char eolSeq[] = EOL_SEQUENCE;
 static uint8_t cmdCnt = 0; //count of added cmd's
 static cmd cmdList[CMD_LIST_SIZE];
 
+/* ============================ functions ============================= */
 /**
  * @brief Adds's cmd to the cmd list
  * 
@@ -32,7 +35,7 @@ static cmd cmdList[CMD_LIST_SIZE];
  * @param cmdDesc String description 
  * @param paramCnt The amount of parameters the cmd expects
  */
-void CLI_AddCmd(const char *cmdName, const char *cmdDesc, uint8_t paramCnt, void *callback)
+void cli_addCmd(const char *cmdName, const char *cmdDesc, uint8_t paramCnt, void *callback)
 {
     // static_assert(cmdCnt < CMD_LIST_SIZE);
 
@@ -52,7 +55,7 @@ void CLI_AddCmd(const char *cmdName, const char *cmdDesc, uint8_t paramCnt, void
  * @param size size cmd string
  * @return uint8_t errorNbr
  */
-static uint8_t CLI_ValidateSyntax(char *buff, uint8_t size)
+static uint8_t cli_validateSyntax(char *buff, uint8_t size)
 {
     uint8_t eolCharCnt = 0;
     //Check if correct amount of EOL chars are present in the buffer. just one of each
@@ -87,12 +90,12 @@ static uint8_t CLI_ValidateSyntax(char *buff, uint8_t size)
  * @param size 
  * @return uint8_t 
  */
-uint8_t CLI_RunCmd(char *cmdString, uint8_t size)
+uint8_t cli_runCmd(char *cmdString, uint8_t size)
  {
 	char response[CMD_RESPONSE_SIZE] = { '\0' }; //stores callback response
 
 	// check cmd format matches: <cmdname>' '<param1>' '<param2>\n
-	if (CLI_ValidateSyntax(cmdString, size) != 0) {
+	if (cli_validateSyntax(cmdString, size) != 0) {
 		printf("NACK: Invalid cmd syntax '%s'\n", cmdString);
 		return 1;
 	}
@@ -182,7 +185,7 @@ uint8_t CLI_RunCmd(char *cmdString, uint8_t size)
  * 
  * @return uint8_t 
  */
-uint8_t CLI_Help()
+uint8_t cli_help()
 {
     char funcName[30] = "";
 
@@ -212,7 +215,3 @@ uint8_t CLI_Help()
 
     return 0;
 }
-
-
-
-

@@ -34,6 +34,7 @@
 #include "systick.h"
 #include "i2c.h"
 #include "ssd1306.h"
+#include "cli.h"
 #include "main.h"
 
 /* ============================ constants ============================= */
@@ -126,6 +127,9 @@ int main(void)
     nvic_config();
 
     led_on(1);
+
+    /* CLI command initialization */
+    cli_addCmd("help", "View all cmd's", 0, cli_help);
 
     while (1)
     {
