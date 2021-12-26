@@ -3,7 +3,7 @@ Absolute Capacitive Rotary Encoder (ACRE) repository. ACRE is a cheap absolute a
 ## Introduction
 This readme gives an overview of the design and build of a Absolute Capacitive Rotary Encoder (ACRE) that consists out of two simple 2-layer pcb's and a handful of components.
 It can detect and measure the absolute angle of an axis from 0 to 360 degrees. The design is based uppon the working principle of a digital caliper, currently it has an accuracy of approximately 1 degrees. 
-Both hardware and software could be improved if you have any suggestions let me know.
+Both hardware and software could be improved if you have any suggestions let me know. In addition to this readme an EEVBLOG forum post was created for this project [Link](https://www.eevblog.com/forum/projects/absolute-capacitive-rotary-encoder-(acre)-constructed-out-of-two-pcbs/).
 
 **Images**  
 <img src="./docs/images/Test_photo01.png" alt="Test_photo01" width="500"/>
