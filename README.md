@@ -2,10 +2,11 @@
 Absolute Capacitive Rotary Encoder (ACRE) repository. ACRE is a cheap absolute angle sensor constructed out of pcb's.
 ## Introduction
 This readme gives an overview of the design and build of a Absolute Capacitive Rotary Encoder (ACRE) that consists out of two simple 2-layer pcb's and a handful of components.
-It can detect and measure the absolute angle of an axis from 0 to 360 degrees. The design is based uppon the working principle of a digital caliper, currently it has an accuracy of approximately 1 degrees. 
+The ACRE is able to detect and measure the absolute angle of an axis connected to the reflector PCB from 0 to 360 degrees. The design is based uppon the working principle of a digital caliper, currently it has an accuracy of approximately 1 degrees. 
 Both hardware and software could be improved if you have any suggestions let me know. In addition to this readme an EEVBLOG forum post was created for this project [Link](https://www.eevblog.com/forum/projects/absolute-capacitive-rotary-encoder-(acre)-constructed-out-of-two-pcbs/).
 
 **Images**  
+<img src="./docs/images/animation_1.gif" alt="animation"/>
 <img src="./docs/images/Test_photo01.png" alt="Test_photo01" width="500"/>
 <img src="./docs/images/Reflector_Transceiver_photo01.png" alt="Reflector Transceiver photo" width="500"/>
 <img src="./docs/images/Hotplate_soldering_photo01.png" alt="Hotplate_soldering_photo01" width="500"/>
@@ -49,7 +50,8 @@ These videos's were made during the assembly and testing stages.
 A capacitive displacement sensor exploits this concept by creating a mechanical sensor structure consisting out of parallel plate capacitors. These capacitors combine half of the transmission signals depending on the mechanical displacement of the sensor structure. By measuring the phase shift of the combined wave the mechanical displacement can be calculated.
 
 **Sensor construction**  
-The sensor consists out of two PCB's a transceiver PCB that holds the transmit and receiving electrodes. And a reflector PCB that rotates relative to the transceiver PCB and couples/combines 50% of the transmit signals to the receiving electrode. The other 50% is coupled to ground.
+The sensor consists out of two PCB's a transceiver PCB that holds the transmit and receiving electrodes. And a reflector PCB that rotates relative to the transceiver PCB and couples/combines 50% of the transmit signals to the receiving electrode. The other 50% is coupled to ground.  
+
 <img src="./docs/images/Tranceiver_bottom_PCB_3D_render.png" alt="Tranceiver_bottom_PCB_3D_render" width="600"/>  
 *Transceiver PCB*  
 

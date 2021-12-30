@@ -19,7 +19,7 @@
  *  [X] Signal processing, to get the phase from the sampled signal
  *  [ ] Serial cli 
  *  [X] i2c display
-
+ *
  * @Bugs
  *  [ ] Potential bug, the DMA channel for sampling and generating the signals are not synced, so if an external ADC trig signal is missed the signals could go out of sync.
  *  [ ] I2c errors will cause endless loop, add propper timeout functionality to the driver.
